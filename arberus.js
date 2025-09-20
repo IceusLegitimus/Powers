@@ -5,11 +5,10 @@ let poderAtual = null;
 // ======= CARREGAR PODERES =======
 async function carregarPoderesArberus() {
     try {
-        const res = await fetch("https://raw.githubusercontent.com/IceusLegitimus/Powers/main/poderes.json");
+        const res = await fetch("./poderes.json"); // Caminho seguro relativo
         const dados = await res.json();
         poderesArberus = dados.arberus;
 
-        // Detecta se estamos em arberus.html ou detalhes.html
         if (document.getElementById("lista-poderes")) {
             renderizarPoderesArberus();
             configurarBuscaArberus();
@@ -30,10 +29,9 @@ async function carregarPoderesArberus() {
         console.error("Erro ao carregar poderes do Arberus:", err);
     }
 }
-
 carregarPoderesArberus();
 
-// ======= FORMATA TAGS ======= 
+// ======= FORMATA TAGS =======
 function formatarTagsArberus(tags) {
     if (!tags) return "";
     if (!Array.isArray(tags)) tags = [tags];
@@ -41,9 +39,9 @@ function formatarTagsArberus(tags) {
     return tags.map(t => {
         let classe = "";
         switch (t) {
-            case "T": classe = "tag-T"; break;     // Verde
-            case "M": classe = "tag-M"; break;     // Azul
-            case "C": classe = "tag-C"; break;     // Marrom
+            case "T": classe = "tag-T"; break;     
+            case "M": classe = "tag-M"; break;     
+            case "C": classe = "tag-C"; break;
             default: classe = "tag-T";
         }
         return `<span class="card-tag ${classe}">${t}</span>`;
