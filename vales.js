@@ -1,22 +1,24 @@
 // ---------------------- Variáveis globais ----------------------
-let poderes = {};
-let mundoAtual = null;
+let poderesVales = [];
 let poderAtual = null;
+let mundoAtual = "vales";
 
 // ---------------------- Carrega JSON assíncrono (GitHub raw) ----------------------
-async function carregarPoderes() {
+async function carregarPoderesVales() {
     try {
         const res = await fetch("https://raw.githubusercontent.com/IceusLegitimus/Powers/main/poderes.json");
-        poderes = await res.json();
-        inicializarPagina();
+        const dados = await res.json();
+        poderesVales = dados.vales || [];
+
+        inicializarPaginaVales();
     } catch (err) {
-        console.error("Erro ao carregar poderes:", err);
+        console.error("Erro ao carregar poderes do Vales:", err);
     }
 }
-carregarPoderes();
+carregarPoderesVales();
 
-// ---------------------- Inicializa a página ----------------------
-function inicializarPagina() {
+// ---------------------- Inicializa página ----------------------
+function inicializarPaginaVales() {
     // INDEX.HTML
     if (document.getElementById("btn-arberus") && document.getElementById("btn-vales")) {
         document.getElementById("btn-arberus").addEventListener("click", () => {
@@ -28,103 +30,72 @@ function inicializarPagina() {
         return;
     }
 
-    // PÁGINA PRINCIPAL DO MUNDO (Arberus ou Vales)
+    // PÁGINA PRINCIPAL DO VALES
     if (document.getElementById("titulo-mundo") && document.getElementById("lista-poderes")) {
-        mundoAtual = document.getElementById("titulo-mundo").innerText.toLowerCase().includes("arberus") ? "arberus" : "vales";
-
-        document.getElementById("toggle-mundo").addEventListener("click", alternarMundo);
-        document.getElementById("busca").addEventListener("input", e => renderizarPoderes(e.target.value));
+        renderizarPoderesVales();
+        const inputBusca = document.getElementById("busca");
+        if (inputBusca) inputBusca.addEventListener("input", (e) => renderizarPoderesVales(e.target.value));
 
         const tituloMundo = document.getElementById("titulo-mundo");
-        tituloMundo.style.cursor = "pointer";
-        tituloMundo.addEventListener("click", () => location.reload());
-
-        renderizarPoderes();
-        return;
-    }
-
-    // DETALHES DO PODER (Vales)
-    if (document.getElementById("lista-poderes")) {
-        const voltar = document.getElementById("voltar-lista");
-        if (voltar) {
-            voltar.addEventListener("click", () => renderizarPoderes());
+        if (tituloMundo) {
+            tituloMundo.style.cursor = "pointer";
+            tituloMundo.addEventListener("click", () => location.reload());
         }
     }
 }
 
-// ---------------------- Alterna entre Arberus e Vales ----------------------
-function alternarMundo() {
-    if (!mundoAtual) return;
-    window.location.href = mundoAtual === "arberus" ? "vales.html" : "arberus.html";
-}
-
-// ---------------------- Renderiza poderes do mundo atual ----------------------
-function renderizarPoderes(filtro = "") {
-    if (!poderes[mundoAtual]) return;
-
-    const container = document.getElementById("lista-poderes");
-    container.innerHTML = "";
-
-    poderes[mundoAtual]
-        .filter(p => p.nome.toLowerCase().includes(filtro.toLowerCase()))
-        .forEach(p => {
-            const card = document.createElement("div");
-            card.className = "poder-card";
-            card.innerHTML = `
-                <div class="card p-3 h-100 d-flex flex-column justify-content-between">
-                    <h5 id="${p.id}">${p.nome} ${formatarTags(p.tag)}</h5>
-                    <button class="btn btn-sm btn-outline-primary mt-2">Ver detalhes</button>
-                </div>
-            `;
-            container.appendChild(card);
-
-            const btn = card.querySelector("button");
-            if (mundoAtual === "vales") {
-                btn.addEventListener("click", () => abrirDetalhesVales(p.id));
-            } else {
-                // Para Arberus, redireciona para detalhes.html
-                btn.addEventListener("click", () => {
-                    localStorage.setItem("poderSelecionado", JSON.stringify(p));
-                    window.location.href = "detalhes.html";
-                });
-            }
-        });
-}
-
-// ---------------------- Formata tags múltiplas ----------------------
-function formatarTags(tags) {
+// ---------------------- Formata tags ----------------------
+function formatarTagsVales(tags) {
     if (!tags) return "";
     if (!Array.isArray(tags)) tags = [tags];
 
     return tags.map(t => {
         let classe = "";
         switch (t) {
-            case "B": classe = "tag-B"; break;      // Roxa
-            case "T": classe = "tag-T"; break;      // Verde
-            case "C": classe = "tag-C"; break;      // Marrom
-            case "D": classe = "tag-D"; break;      // Despertada
-            case "Arakis": classe = "tag-Arakis"; break;
-            case "Akram": classe = "tag-Akram"; break;
+            case "B": classe = "tag-B"; break; // Roxa
+            case "T": classe = "tag-T"; break; // Verde
+            case "C": classe = "tag-C"; break; // Marrom
+            case "D": classe = "tag-D"; break; // Despertada
             default: classe = "tag-B";
         }
         return `<span class="card-tag ${classe}">${t}</span>`;
     }).join(" ");
 }
 
-// ---------------------- Abre detalhes de um poder (Vales) ----------------------
-function abrirDetalhesVales(id) {
-    const poder = poderes[mundoAtual].find(p => p.id === id);
-    if (!poder) return;
-
+// ---------------------- Renderiza poderes ----------------------
+function renderizarPoderesVales(filtro = "") {
     const container = document.getElementById("lista-poderes");
+    if (!container) return;
+    container.innerHTML = "";
+
+    poderesVales
+        .filter(p => p.nome.toLowerCase().includes(filtro.toLowerCase()))
+        .forEach(p => {
+            const div = document.createElement("div");
+            div.className = "poder-card";
+            div.innerHTML = `
+                <div class="card p-3 h-100 d-flex flex-column justify-content-between">
+                    <h5>${p.nome} ${formatarTagsVales(p.tag)}</h5>
+                    <p>${p.descricao}</p>
+                    <button class="btn btn-sm btn-outline-primary mt-2 ver-detalhes">Ver detalhes</button>
+                </div>
+            `;
+            container.appendChild(div);
+
+            div.querySelector(".ver-detalhes").addEventListener("click", () => mostrarDetalhesVales(p));
+        });
+}
+
+// ---------------------- Mostra detalhes do poder ----------------------
+function mostrarDetalhesVales(poder) {
+    const container = document.getElementById("lista-poderes");
+    if (!container) return;
+
     container.innerHTML = `
-        <h2 class="text-center">${poder.nome} ${formatarTags(poder.tag)}</h2>
+        <h2 class="text-center">${poder.nome} ${formatarTagsVales(poder.tag)}</h2>
         <p class="text-center fw-bold">Estilo: ${poder.estilo}</p>
         <p class="mt-3">${poder.descricao}</p>
         <h3 class="mt-4">Evoluções</h3>
         <ul>${poder.evolucoes.map(e => `<li>${e}</li>`).join("")}</ul>
-        <button class="btn btn-secondary mt-3" id="voltar-lista">Voltar</button>
     `;
-
-    document.getElementById("voltar-lista").addEventListener("click", () => renderizarPoderes());
 }

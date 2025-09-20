@@ -30,10 +30,9 @@ async function carregarPoderesArberus() {
         console.error("Erro ao carregar poderes do Arberus:", err);
     }
 }
-
 carregarPoderesArberus();
 
-// ======= FORMATA TAGS ======= 
+// ======= FORMATA TAGS =======
 function formatarTagsArberus(tags) {
     if (!tags) return "";
     if (!Array.isArray(tags)) tags = [tags];
@@ -59,7 +58,7 @@ function renderizarPoderesArberus(filtro = "") {
         .filter(p => p.nome.toLowerCase().includes(filtro.toLowerCase()))
         .forEach(p => {
             const div = document.createElement("div");
-            div.className = "poder-card";
+            div.className = "col-md-4 mb-3";
 
             div.innerHTML = `
                 <div class="card p-3 h-100 d-flex flex-column justify-content-between">
@@ -94,6 +93,7 @@ function configurarTrocaMundoArberus() {
 // ======= TÍTULO CLICÁVEL =======
 function configurarTituloArberus() {
     const titulo = document.getElementById("titulo-mundo");
+    titulo.style.cursor = "pointer";
     titulo.addEventListener("click", () => location.reload());
 }
 
@@ -127,5 +127,6 @@ function mostrarDetalhesArberus(poder) {
 // ======= TÍTULO CLICÁVEL DETALHES =======
 function configurarTituloDetalhesArberus() {
     const titulo = document.getElementById("titulo-mundo");
+    titulo.style.cursor = "pointer";
     titulo.addEventListener("click", () => window.location.href = "arberus.html");
 }
