@@ -3,43 +3,256 @@
     {
       "id": "a1",
       "nome": "Explosão de Energia",
-      "tag": ["T"],
+      "tag": [
+        "T"
+      ],
       "descricao": "Emite uma grande explosão de energia concentrada.",
       "anomalias": [
-        {"nome": "Explosão Maior", "descricao": "Aumenta alcance e dano da explosão."},
-        {"nome": "Explosão Focal", "descricao": "Reduz área mas aumenta precisão."}
+        {
+          "nome": "Explosão Maior",
+          "descricao": "Aumenta alcance e dano da explosão."
+        },
+        {
+          "nome": "Explosão Focal",
+          "descricao": "Reduz área mas aumenta precisão."
+        }
       ]
     },
     {
       "id": "a2",
       "nome": "Manipulação de Som",
-      "tag": ["M"],
+      "tag": [
+        "M"
+      ],
       "descricao": "Controla ondas sonoras para atacar ou confundir inimigos.",
       "anomalias": [
-        {"nome": "Som Direcional", "descricao": "Direciona o som para um ponto específico."},
-        {"nome": "Amplificação", "descricao": "Aumenta intensidade e alcance do som."}
+        {
+          "nome": "Som Direcional",
+          "descricao": "Direciona o som para um ponto específico."
+        },
+        {
+          "nome": "Amplificação",
+          "descricao": "Aumenta intensidade e alcance do som."
+        }
       ]
     }
   ],
-  
   "vales": [
     {
-      "id": "v1",
-      "nome": "Chama Primordial",
+      "id": "v-arakis-arm-1",
+      "nome": "Adagas espectrais",
       "tag": ["B"],
       "vale": "Arakis",
-      "estilo": "Disparo",
-      "descricao": "Emite chamas básicas que queimam inimigos.",
-      "evolucoes": ["Chama Avançada", "Chama Suprema"]
+      "estilo": "Armamento",
+      "descricao": "Partículas formam um esboço de duas adagas que ao serem pegas no seu punhal, se tornam invisíveis aos olhos nus, elas causam dano cortante. Todo ataque utilizando as adagas é considerado um ataque furtivo. Só pode ser visto e portado por você ou um ser com mais de 3 de Caos. Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada rodada.",
+      "evolucoes": [
+        {"nome": "Alabarda fantasma", "tag": ["T"]},
+        {"nome": "Katana abissal", "tag": ["D"]}        
+      ]
     },
     {
-      "id": "v2",
-      "nome": "Espada Etérea",
+      "id": "v-arakis-arm-2",
+      "nome": "Alabarda fantasma",
       "tag": ["T"],
-      "vale": "Akram",
+      "vale": "Arakis",
       "estilo": "Armamento",
-      "descricao": "Cria uma espada etérea capaz de cortar qualquer material.",
-      "evolucoes": ["Espada Transmutada", "Espada Despertada"]
+      "descricao": "Partículas formam uma alabarda translúcida de cor roxa que pode ser controlada a longa distância mentalmente em até <b>[Nível•2+Caos•2]</b> metros, utilizando o seu Caos. Causa <b>Caos</b> de dano extra se o alvo estiver <i>'Apavorado'</i>. Só pode ser portado por você ou um ser com mais de 6 de Caos. Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada 2 rodadas.",
+      "evolucoes": [
+        {"nome": "Adagas espectrais", "tag": ["B"]},
+        {"nome": "Katana abissal", "tag": ["D"]}        
+      ]
+    },
+    {
+      "id": "v-arakis-arm-3",
+      "nome": "Katana abissal",
+      "tag": ["D"],
+      "vale": "Arakis",
+      "estilo": "Armamento",
+      "descricao": "Um punhal selado com correntes emerge, ao ser empunhada, gritos ecoam por todo o local. A cada final de rodada enquanto a Arte durar, ela armazenará 1 ponto de Akrosys em troca de 1 de Sanidade sua, podendo chegar até 3 pontos. Ao chegar no limite, o próximo dado de dano será triplicado, deixando a katana inutilizada pela próximas rodada. Alvos em um raio de <b>[Nível•Caos]</b> metros ficarão imediatamente <i>'Apavorado'</i> com você sendo a fonte de medo. Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada 3 rodadas.",
+      "evolucoes": [
+        {"nome": "Adagas espectrais", "tag": ["B"]},
+        {"nome": "Alabarda fantasma", "tag": ["T"]}        
+      ]
+    },
+    {
+      "id": "v-arakis-arm-4",
+      "nome": "Mãos fantasmas",
+      "tag": ["B"],
+      "vale": "Arakis",
+      "estilo": "Armamento",
+      "descricao": "Partículas formam um par de braços translúcidos de cor azul escura em um raio de [Nível+Caos] metros de você, sendo controladas mentalmente usando <b>Caos</b>. Causa dano físico se for de impacto e metade de dano físico e metade de dano caótico se for de perfuração ou cortante. Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada rodada.",
+      "evolucoes": [
+        {"nome": "Rastros dos mortos", "tag": ["T"]},
+        {"nome": "Pingente púrpuro", "tag": ["D"]}        
+      ]
+    },
+    {
+      "id": "v-arakis-arm-5",
+      "nome": "Rastros dos mortos",
+      "tag": ["T"],
+      "vale": "Arakis",
+      "estilo": "Armamento",
+      "descricao": "Partículas brilhantes de cor azul circulam as suas pernas como vagalumes, às deixando translúcidas, permitindo que flutue até <b>[Nível•2+Caos•2]</b> metros de altura livremente. Permite que atinja inimigos intangíveis utilizando chutes. Além disso, não faz barulho ao pisar, permitindo ataques furtivos, também aumentando sua Mobilidade e Deslocamento em [Nível] pontos. Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada 2 rodadas.",
+      "evolucoes": [
+        {"nome": "Mãos fantasmas", "tag": ["B"]},
+        {"nome": "Pingente púrpuro", "tag": ["D"]}        
+      ]
+    },
+    {
+      "id": "v-arakis-arm-6",
+      "nome": "Pingente púrpuro",
+      "tag": ["D"],
+      "vale": "Arakis",
+      "estilo": "Armamento",
+      "descricao": "Um esqueleto de um ser não humano emerge acorrentado, possuindo apenas um pingente púrpuro em seu pescoço, e por instinto, você arranca e coloca-o, deixando-lhe vulnerável por uma rodada. Enquanto isso, seus olhos se tornam pretos, deixando somente a íris roxa, suas veias ficam escuras e sua voz se torna distorcida. Você tem todas as Artes bases do Vale Arakis desbloqueadas e prontas para uso, ganha resistência a danos caóticos e danos mentais, além de poder duplicar os efeitos das Artes bases que já possua. Para desativar, precisará entrar em <i>Estado de Morte</i>, caso contrário, sua sanidade será consumida em 2 a cada 3 rodadas. Se perder toda sanidade enquanto estiver sob os efeitos da Arte, você se tornará o Lich.",
+      "evolucoes": [
+        {"nome": "Mãos fantasmas", "tag": ["B"]},
+        {"nome": "Rastros dos mortos", "tag": ["T"]}        
+      ]
+    },
+    {
+      "id": "v-arakis-arm-7",
+      "nome": "Revólver astral",
+      "tag": ["B"],
+      "vale": "Arakis",
+      "estilo": "Armamento",
+      "descricao": "Partículas azuis formam um metal translúcido da mesma cor que se molda em um revólver. Permite disparar igual a um revólver normal, possuindo 6 balas. Ao passar uma rodada, a arma é recarregada automaticamente sozinha. Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada rodada.",
+      "evolucoes": [
+        {"nome": "Carabina espectral", "tag": ["T"]},
+        {"nome": "Rifle do vazio", "tag": ["D"]}        
+      ]
+    },
+    {
+      "id": "v-arakis-arm-8",
+      "nome": "Carabina espectral",
+      "tag": ["T"],
+      "vale": "Arakis",
+      "estilo": "Armamento",
+      "descricao": "Partículas roxas formam um metal translúcido da mesma cor que se molda em uma carabina de pressão. Permite disparar igual a uma carabina normal, possuindo 1 bala. Ao passar uma rodada, a arma é recarregada automaticamente sozinha. Permite que sua bala atravesse uma superfície sólida de até <b>[Nível•2+Caos•2]</b> metros de espessura. Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada 2 rodadas.",
+      "evolucoes": [
+        {"nome": "Revólver astral", "tag": ["B"]},
+        {"nome": "Rifle do vazio", "tag": ["D"]}        
+      ]
+    },
+    {
+      "id": "v-arakis-arm-9",
+      "nome": "Rifle do vazio",
+      "tag": ["D"],
+      "vale": "Arakis",
+      "estilo": "Armamento",
+      "descricao": "Partículas pretas formam um metal translúcido da mesma cor que se molda em uma Barrett M82. Permite disparar igual a um rifle normal, possuindo 5 balas. Ao passar uma rodada, a arma é recarregada automaticamente sozinha. Permite que ao focar em um alvo sem perdê-lo de vista, ao disparar, o disparo irá persegui-lo, enquanto você tiver em olho nele, garantindo o acerto. Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada 3 rodadas.",
+      "evolucoes": [
+        {"nome": "Revólver astral", "tag": ["B"]},
+        {"nome": "Carabina espectral", "tag": ["T"]}        
+      ]
+    },
+    {
+      "id": "v-arakis-dec-1",
+      "nome": "Enfraquecer",
+      "tag": ["B"],
+      "vale": "Arakis",
+      "estilo": "Decaimento",
+      "descricao": "Marca um alvo, o deixando enfraquecido, reduzindo um atributo a escolha do alvo em <b>[Nível+Caos]</b>. O alvo precisa passar num teste de <b>Caos</b> com a mesma D.A de ativação dessa Arte para não ser afetado ou sair do decaimento. Não consegue usar outras Artes enquanto está a enfraquecer. Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada rodada.",
+      "evolucoes": [
+        {"nome": "Reduzir", "tag": ["B"]},
+        {"nome": "Anular", "tag": ["D"]}        
+      ]
+    },
+    {
+      "id": "v-arakis-dec-2",
+      "nome": "Reduzir",
+      "tag": ["T"],
+      "vale": "Arakis",
+      "estilo": "Armamento",
+      "descricao": "Marca o alvo, o deixando ainda mais enfraquecido, podendo reduzir todos os atributos e o deslocamento pela metade, ou reduzir todos os danos que causa pela metade, ou reduzir o turno dele apenas para ele ter uma reação. O alvo precisa passar num teste de <b>Caos</b> com a mesma D.A de ativação dessa Arte para não ser afetado ou sair do decaimento. Não consegue usar outras Artes enquanto está a reduzir. Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada 2 rodadas.",
+      "evolucoes": [
+        {"nome": "Enfraquecer", "tag": ["B"]},
+        {"nome": "Anular", "tag": ["D"]}        
+      ]
+    },
+    {
+      "id": "v-arakis-dec-3",
+      "nome": "Anular",
+      "tag": ["D"],
+      "vale": "Arakis",
+      "estilo": "Armamento",
+      "descricao": "Ao mover de uma das mãos, permite anular uma ação ou uma reação, ou uma outra Arte ativa ou passiva, ou anular uma condição negativa, isso se puder ver o que quer que seja anulado ou a força que causa o efeito que deseja anular. É impossível um alvo escapar, exceto se alguém Anular sua Arte. Não pode permanecer ativa, precisando ser reativa manualmente, consumindo novamente sanidade. ",
+      "evolucoes": [
+        {"nome": "Enfraquecer", "tag": ["B"]},
+        {"nome": "Reduzir", "tag": ["T"]}        
+      ]
+    },
+    {
+      "id": "v-arakis-dec-4",
+      "nome": "Falhas de sentidos",
+      "tag": ["B"],
+      "vale": "Arakis",
+      "estilo": "Decaimento",
+      "descricao": "Marca um alvo que conseguir ver, o deixando ou sem conseguir ver, ou sem conseguir ouvir, ou sem conseguir cheirar. O alvo precisa passar num teste de <b>Caos</b> com a mesma D.A de ativação dessa Arte para não ser afetado ou sair do decaimento. Não consegue usar outras Artes enquanto está se desestabilizando. Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada rodada.",
+      "evolucoes": [
+        {"nome": "Resquícios do fim", "tag": ["B"]},
+        {"nome": "Rio dos mortos", "tag": ["D"]}        
+      ]
+    },
+    {
+      "id": "v-arakis-dec-5",
+      "nome": "Resquícios do fim",
+      "tag": ["T"],
+      "vale": "Arakis",
+      "estilo": "Armamento",
+      "descricao": "Marca um alvo que conseguir ver, o fazendo ter visões perturbadoras sobre um futuro distópico, deixando-o <i>'Pertubado'</i> e <i>'Apavorado'</i>. O alvo precisa passar num teste de <b>Caos</b> com a mesma D.A de ativação dessa Arte para não ser afetado ou sair do decaimento. Não consegue usar outras Artes enquanto está a perturbar. Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada 2 rodadas.",
+      "evolucoes": [
+        {"nome": "Falhas de sentidos", "tag": ["B"]},
+        {"nome": "Rio dos mortos", "tag": ["D"]}        
+      ]
+    },
+    {
+      "id": "v-arakis-dec-6",
+      "nome": "Rio dos mortos",
+      "tag": ["D"],
+      "vale": "Arakis",
+      "estilo": "Armamento",
+      "descricao": "Uma névoa cobre uma região ondulada de até [Nível•Caos] metros, formando uma espécie de rio enevoado. Quem permanecer dentro da névoa verá alucinações de momentos felizes sendo totalmente distorcidos e se tornando situações grotescas, sendo tão reais que é como se estivesse realmente ali. Aqueles que estiverem dentro da névoa perderão 1 de Sanidade por fim de rodada, além de ficarem <i>'Exausto'</i> e <i>'Pertubado'</i>. Se um alvo tiver sua sanidade zerada dentro da névoa, ele se torna um <b><i>Esquecido</b></i>. Você não e até [Nível] alvos não são influenciados pela sua Arte. Não consegue usar outras Artes enquanto está a iludir. Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada 3 rodadas.",
+      "evolucoes": [
+        {"nome": "Falhas de sentidos", "tag": ["B"]},
+        {"nome": "Resquícios do fim", "tag": ["T"]}        
+      ]
+    },
+    {
+      "id": "v-arakis-dec-7",
+      "nome": "Apavorar",
+      "tag": ["B"],
+      "vale": "Arakis",
+      "estilo": "Decaimento",
+      "descricao": "Marca dois alvos que conseguem te ver, os deixando <i>'Apavorado'</i>. O alvo precisa passar num teste de Mente com a mesma D.A de ativação dessa Arte para não ser afetado ou sair do decaimento. Não consegue usar outras Artes enquanto está se amedrontando. Permanece ativa se passar num teste de Caos com a mesma D.A de ativação ao final de cada rodada.",
+      "evolucoes": [
+        {"nome": "Hipnotizar", "tag": ["B"]},
+        {"nome": "Controlar", "tag": ["D"]}        
+      ]
+    },
+    {
+      "id": "v-arakis-dec-8",
+      "nome": "Hipnotizar",
+      "tag": ["T"],
+      "vale": "Arakis",
+      "estilo": "Armamento",
+      "descricao": "Ao entrar em contato visual com o alvo, marque-o, o deixando hipnotizado por você. O alvo precisa passar num teste de <b>Mente</b> com a mesma D.A de ativação dessa Arte para não ser afetado ou sair do decaimento. Ele seguirá ordens não complexas e que não o submeta a situações de estresse, caso contrário ele conseguirá dissipar sua hipnose. Não consegue usar outras Artes enquanto está a hipnotizar. Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada 2 rodadas.",
+      "evolucoes": [
+        {"nome": "Apavorar", "tag": ["B"]},
+        {"nome": "Controlar", "tag": ["D"]}        
+      ]
+    },
+    {
+      "id": "v-arakis-dec-9",
+      "nome": "Controlar",
+      "tag": ["D"],
+      "vale": "Arakis",
+      "estilo": "Armamento",
+      "descricao": "Ao tocar no alvo, o sistema nervoso dele fica estático por um segundo, e nesse segundo você consegue acessar a mente dele, permitindo controlá-lo como quiser, podendo fazê-lo seguir ordens complexas e que submeta a situações de estresse. O alvo precisa passar num teste de <b>Mente</b> com a mesma D.A de ativação dessa Arte para sair do decaimento, ou lembrar de quem realmente é ele e quem o está controlando. Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada 3 rodadas.",
+      "evolucoes": [
+        {"nome": "Apavorar", "tag": ["B"]},
+        {"nome": "Hipnotizar", "tag": ["T"]}        
+      ]
     }
   ]
 }

@@ -40,6 +40,17 @@ function formatarTagsVales(tags) {
     }).join(" ");
 }
 
+// ======= FORMATA VALE =======
+function formatarVale(vale) {
+    if (!vale) return "";
+    let cor = "bg-secondary"; // padrão cinza
+    switch (vale.toLowerCase()) {
+        case "arakis": cor = "bg-primary"; break; // Azul
+        case "akram": cor = "bg-danger"; break;  // Vermelho
+    }
+    return `<span class="badge ${cor} ms-2">${vale}</span>`;
+}
+
 // ======= RENDERIZAR PODERES =======
 function renderizarPoderesVales(filtro = "") {
     const container = document.getElementById("lista-poderes");
@@ -54,7 +65,9 @@ function renderizarPoderesVales(filtro = "") {
 
             div.innerHTML = `
                 <div class="card p-3 h-100 d-flex flex-column justify-content-between">
-                    <h5>${p.nome} ${formatarTagsVales(p.tag)}</h5>
+                    <h5>
+                        ${p.nome} ${formatarTagsVales(p.tag)} ${formatarVale(p.vale)}
+                    </h5>
                     <button class="btn btn-sm btn-outline-primary mt-2 ver-detalhes">Ver detalhes</button>
                 </div>
             `;
@@ -73,11 +86,21 @@ function mostrarDetalhesVales(poder) {
 
     container.innerHTML = `
         <div class="card p-4">
-            <h2 class="text-center">${poder.nome} ${formatarTagsVales(poder.tag)}</h2>
+            <h2 class="text-center">
+                ${poder.nome} ${formatarTagsVales(poder.tag)} ${formatarVale(poder.vale)}
+            </h2>
             <p class="text-center fw-bold">Estilo: ${poder.estilo}</p>
             <p class="mt-3">${poder.descricao}</p>
             <h4 class="mt-4">Evoluções</h4>
-            <ul>${poder.evolucoes.map(e => `<li>${e}</li>`).join("")}</ul>
+            <ul>
+                ${poder.evolucoes.map(e => {
+                    if (typeof e === "string") {
+                        return `<li>${e}</li>`;
+                    } else {
+                        return `<li>${e.nome} ${formatarTagsVales(e.tag)} ${formatarVale(e.vale || "")}</li>`;
+                    }
+                }).join("")}
+            </ul>
             <button class="btn btn-secondary mt-3" id="voltar-lista">Voltar</button>
         </div>
     `;
