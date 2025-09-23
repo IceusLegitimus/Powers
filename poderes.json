@@ -44,7 +44,7 @@
       "tag": ["B"],
       "vale": "Arakis",
       "estilo": "Armamento",
-      "descricao": "Partículas formam um esboço de duas adagas que ao serem pegas no seu punhal, se tornam invisíveis aos olhos nus, elas causam dano cortante. Todo ataque utilizando as adagas é considerado um ataque furtivo. Só pode ser visto e portado por você ou um ser com mais de 3 de Caos. Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada rodada.",
+      "descricao": "Partículas formam um esboço de duas adagas que ao serem pegas no seu punhal, se tornam invisíveis aos olhos nus, elas causam dano cortante. Todo ataque utilizando as adagas é considerado um ataque furtivo. Só pode ser visto e portado por você ou um ser com mais de 3 de <b>Caos</b>. Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada rodada.",
       "evolucoes": [
         {"nome": "Alabarda fantasma", "tag": ["T"]},
         {"nome": "Katana abissal", "tag": ["D"]}        
@@ -56,7 +56,7 @@
       "tag": ["T"],
       "vale": "Arakis",
       "estilo": "Armamento",
-      "descricao": "Partículas formam uma alabarda translúcida de cor roxa que pode ser controlada a longa distância mentalmente em até <b>[Nível•2+Caos•2]</b> metros, utilizando o seu Caos. Causa <b>Caos</b> de dano extra se o alvo estiver <i>'Apavorado'</i>. Só pode ser portado por você ou um ser com mais de 6 de Caos. Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada 2 rodadas.",
+      "descricao": "Partículas formam uma alabarda translúcida de cor roxa que pode ser controlada a longa distância mentalmente em até <b>[Nível•2+Caos•2]</b> metros, utilizando o seu <b>Caos</b>. Causa <b>Caos</b> de dano extra se o alvo estiver <i>'Apavorado'</i>. Só pode ser portado por você ou um ser com mais de 6 de <b>Caos</b>. Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada 2 rodadas.",
       "evolucoes": [
         {"nome": "Adagas espectrais", "tag": ["B"]},
         {"nome": "Katana abissal", "tag": ["D"]}        
@@ -68,7 +68,7 @@
       "tag": ["D"],
       "vale": "Arakis",
       "estilo": "Armamento",
-      "descricao": "Um punhal selado com correntes emerge, ao ser empunhada, gritos ecoam por todo o local. A cada final de rodada enquanto a Arte durar, ela armazenará 1 ponto de Akrosys em troca de 1 de Sanidade sua, podendo chegar até 3 pontos. Ao chegar no limite, o próximo dado de dano será triplicado, deixando a katana inutilizada pela próximas rodada. Alvos em um raio de <b>[Nível•Caos]</b> metros ficarão imediatamente <i>'Apavorado'</i> com você sendo a fonte de medo. Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada 3 rodadas.",
+      "descricao": "Um punhal selado com correntes emerge, ao ser empunhada, gritos ecoam por todo o local. A cada final de rodada enquanto a Arte durar, ela armazenará 1 ponto de <i>'Akrosys'</i> em troca de 1 de Sanidade sua, podendo chegar até 3 pontos. Ao chegar no limite, o próximo dado de dano será triplicado, deixando a katana inutilizada pela próximas rodada. Alvos em um raio de <b>[Nível•Caos]</b> metros ficarão imediatamente <i>'Apavorado'</i> com você sendo a fonte de medo. Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada 3 rodadas.",
       "evolucoes": [
         {"nome": "Adagas espectrais", "tag": ["B"]},
         {"nome": "Alabarda fantasma", "tag": ["T"]}        
@@ -92,7 +92,7 @@
       "tag": ["T"],
       "vale": "Arakis",
       "estilo": "Armamento",
-      "descricao": "Partículas brilhantes de cor azul circulam as suas pernas como vagalumes, às deixando translúcidas, permitindo que flutue até <b>[Nível•2+Caos•2]</b> metros de altura livremente. Permite que atinja inimigos intangíveis utilizando chutes. Além disso, não faz barulho ao pisar, permitindo ataques furtivos, também aumentando sua Mobilidade e Deslocamento em [Nível] pontos. Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada 2 rodadas.",
+      "descricao": "Partículas brilhantes de cor azul circulam as suas pernas como vagalumes, às deixando translúcidas, permitindo que voe até <b>[Nível•2+Caos•2]</b> metros de altura livremente. Permite que atinja inimigos intangíveis utilizando chutes. Além disso, não faz barulho ao pisar, permitindo ataques furtivos, também aumentando sua Mobilidade e Deslocamento em <b>[Nível]</b> pontos. Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada 2 rodadas.",
       "evolucoes": [
         {"nome": "Mãos fantasmas", "tag": ["B"]},
         {"nome": "Pingente púrpuro", "tag": ["D"]}        
@@ -164,7 +164,7 @@
       "tag": ["T"],
       "vale": "Arakis",
       "estilo": "Armamento",
-      "descricao": "Marca o alvo, o deixando ainda mais enfraquecido, podendo reduzir todos os atributos e o deslocamento pela metade, ou reduzir todos os danos que causa pela metade, ou reduzir o turno dele apenas para ele ter uma reação. O alvo precisa passar num teste de <b>Caos</b> com a mesma D.A de ativação dessa Arte para não ser afetado ou sair do decaimento. Não consegue usar outras Artes enquanto está a reduzir. Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada 2 rodadas.",
+      "descricao": "Marca o alvo, o deixando ainda mais enfraquecido, podendo reduzir 3 dos atributos e o deslocamento pela metade, ou reduzir os danos causados pela metade, ou reduzir o turno dele apenas para ele ter uma reação. O alvo precisa passar num teste de <b>Caos</b> com a mesma D.A de ativação dessa Arte para não ser afetado ou sair do decaimento. Não consegue usar outras Artes enquanto está a reduzir. Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada 2 rodadas.",
       "evolucoes": [
         {"nome": "Enfraquecer", "tag": ["B"]},
         {"nome": "Anular", "tag": ["D"]}        
@@ -212,7 +212,7 @@
       "tag": ["D"],
       "vale": "Arakis",
       "estilo": "Armamento",
-      "descricao": "Uma névoa cobre uma região ondulada de até [Nível•Caos] metros, formando uma espécie de rio enevoado. Quem permanecer dentro da névoa verá alucinações de momentos felizes sendo totalmente distorcidos e se tornando situações grotescas, sendo tão reais que é como se estivesse realmente ali. Aqueles que estiverem dentro da névoa perderão 1 de Sanidade por fim de rodada, além de ficarem <i>'Exausto'</i> e <i>'Pertubado'</i>. Se um alvo tiver sua sanidade zerada dentro da névoa, ele se torna um <b><i>Esquecido</b></i>. Você não e até [Nível] alvos não são influenciados pela sua Arte. Não consegue usar outras Artes enquanto está a iludir. Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada 3 rodadas.",
+      "descricao": "Uma névoa cobre uma região ondulada de até <b>[Nível•Caos]</b> metros, formando uma espécie de rio enevoado. Quem permanecer dentro da névoa verá alucinações de momentos felizes sendo totalmente distorcidos e se tornando situações grotescas, sendo tão reais que é como se estivesse realmente ali. Aqueles que estiverem dentro da névoa perderão 1 de Sanidade por fim de rodada, além de ficarem <i>'Exausto'</i> e <i>'Pertubado'</i>. Se um alvo tiver sua sanidade zerada dentro da névoa, ele se torna um <b><i>Esquecido</b></i>. Você não e até <b>[Nível]</b> alvos não são influenciados pela sua Arte. Não consegue usar outras Artes enquanto está a iludir. Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada 3 rodadas.",
       "evolucoes": [
         {"nome": "Falhas de sentidos", "tag": ["B"]},
         {"nome": "Resquícios do fim", "tag": ["T"]}        
@@ -224,7 +224,7 @@
       "tag": ["B"],
       "vale": "Arakis",
       "estilo": "Decaimento",
-      "descricao": "Marca dois alvos que conseguem te ver, os deixando <i>'Apavorado'</i>. O alvo precisa passar num teste de Mente com a mesma D.A de ativação dessa Arte para não ser afetado ou sair do decaimento. Não consegue usar outras Artes enquanto está se amedrontando. Permanece ativa se passar num teste de Caos com a mesma D.A de ativação ao final de cada rodada.",
+      "descricao": "Marca dois alvos que conseguem te ver, os deixando <i>'Apavorado'</i>. O alvo precisa passar num teste de <b>Mente</b> com a mesma D.A de ativação dessa Arte para não ser afetado ou sair do decaimento. Não consegue usar outras Artes enquanto está se amedrontando. Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada rodada.",
       "evolucoes": [
         {"nome": "Hipnotizar", "tag": ["B"]},
         {"nome": "Controlar", "tag": ["D"]}        
@@ -252,6 +252,258 @@
       "evolucoes": [
         {"nome": "Apavorar", "tag": ["B"]},
         {"nome": "Hipnotizar", "tag": ["T"]}        
+      ]
+    },
+    {
+      "id": "v-arakis-dis-1",
+      "nome": "Feixe cristalizado",
+      "tag": ["B"],
+      "vale": "Arakis",
+      "estilo": "Disparo",
+      "descricao": "Dentro de um raio de <b>[Nível+Caos]</b> metros do alvo, um feixe cristalizado é disparado de um símbolo de invocação Arakis, atingindo o alvo e aplicando <i>'Congelamento'</i>. Causando dano congelante. Não pode permanecer ativa, precisando ser reativa manualmente, consumindo novamente sanidade.",
+      "evolucoes": [
+        {"nome": "Feixe invisível", "tag": ["B"]},
+        {"nome": "Feixe prismático", "tag": ["D"]}        
+      ]
+    },
+    {
+      "id": "v-arakis-dis-2",
+      "nome": "Feixe invisível",
+      "tag": ["T"],
+      "vale": "Arakis",
+      "estilo": "Disparo",
+      "descricao": "Dentro de um raio de <b>[Nível•2+Caos•2]</b> metros, um feixe imperceptível a olhos nus é disparado de um símbolo de invocação Arakis, aumentando a chance de acerto em <b>[Nível]</b> (Diminui da R.A do Alvo). Pode aplicar <i>'Akrosys'</i> caso tire 3 ou menor em 1d10 a cada disparo bem sucedido. Causa dano caótico. Não pode permanecer ativa, precisando ser reativa manualmente, consumindo novamente sanidade.",
+      "evolucoes": [
+        {"nome": "Feixe cristalizado", "tag": ["B"]},
+        {"nome": "Feixe prismático", "tag": ["D"]}        
+      ]
+    },
+    {
+      "id": "v-arakis-dis-3",
+      "nome": "Feixe prismático",
+      "tag": ["D"],
+      "vale": "Arakis",
+      "estilo": "Disparo",
+      "descricao": "Dentro de um raio de <b>[Nível•Caos]</b> metros, um feixe prismático é disparado de um símbolo de invocação Arakis, repartindo seu dano em 5: dano físico, dano flamejante, dano eletrizante, dano congelante, dano necrótico e dano caótico. Além disso, caso o disparo seja bem sucedido, role 1d6 para aplicar uma das seguintes condições negativas: <i>'Sangramento', 'Em chamas', 'Eletrizado', 'Congelamento', 'Necrosando' ou 'Akrosys'. Não pode permanecer ativa, precisando ser reativa manualmente, consumindo novamente sanidade.",
+      "evolucoes": [
+        {"nome": "Feixe cristalizado", "tag": ["B"]},
+        {"nome": "Feixe invisível", "tag": ["T"]}        
+      ]
+    },
+    {
+      "id": "v-arakis-dis-4",
+      "nome": "Estrelas cadentes",
+      "tag": ["B"],
+      "vale": "Arakis",
+      "estilo": "Disparo",
+      "descricao": "Partículas se moldam e formam 4 esferas de energia luminosa que podem ser disparadas assim que ativada, sem serem afetadas pela gravidade. Ao atingir uma superfície, elas explodem, causando dano caótico e deixando uma região de um raio de <b>[Nível+Caos]</b> metros coberta por uma névoa prismática que aplica <i>'Akrosys'</i>, exceto você. A região enevoada permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada rodada. Não pode permanecer ativa, precisando ser reativa manualmente, consumindo novamente sanidade.",
+      "evolucoes": [
+        {"nome": "Chuva cósmica", "tag": ["B"]},
+        {"nome": "Gargantua", "tag": ["D"]}        
+      ]
+    },
+    {
+      "id": "v-arakis-dis-5",
+      "nome": "Chuva cósmica",
+      "tag": ["T"],
+      "vale": "Arakis",
+      "estilo": "Disparo",
+      "descricao": "Nuvens roxas se formam em uma região, e em um raio de <b>[Nível•2+Caos•2]</b> metros do ponto que você determinar, cairá uma chuva de meteoritos que causam dano físico. Alvos que estiverem dentro do raio, levarão dano físico a cada fim de rodada, espalhando uma névoa que aplica <i>'Akrosys'</i>. Não consegue usar outras Artes enquanto está controlando a chuva. Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada 2 rodadas.",
+      "evolucoes": [
+        {"nome": "Estrelas cadentes", "tag": ["B"]},
+        {"nome": "Gargantua", "tag": ["D"]}        
+      ]
+    },
+    {
+      "id": "v-arakis-dis-6",
+      "nome": "Gargantua",
+      "tag": ["D"],
+      "vale": "Arakis",
+      "estilo": "Disparo",
+      "descricao": "Ao bater das palmas, uma singularidade se forma entre suas mãos, sendo jogada para frente, ela aumenta seu tamanho em 1 metro a cada 2 metros, possuindo 2 áreas de efeitos: <i>Horizonte de Eventos e Limite de Eventos</i>. O Horizonte de Eventos fica a [Nível•Caos] metros do Limite de Eventos, e todos que estiverem dentro desse campo, será aplicado <i>'Lentidão'</i> e serão puxados para o Limite de Eventos. Dentro do Limite de Eventos é onde causa o desastre, pois causa dano físico e dano caótico absurdo, sendo a o <b>[Tamanho atual do Gargantua•Resultado total do dado]</b>. Quem estiver dentro do Horizonte de Eventos precisa fazer um teste de <b>Constituição</b> a cada início de rodada com a mesma D.A de ativação dessa Arte para não envelhecer por 1 ano. Para desativar a Arte é necessário usar a <b>Arte Arakis – Anular</b>, caso contrário, o buraco negro se expandirá cada vez mais, consumindo estruturas e seres descontrolavemente.",
+      "evolucoes": [
+        {"nome": "Estrelas cadentes", "tag": ["B"]},
+        {"nome": "Chuva cósmica", "tag": ["T"]}        
+      ]
+    },
+    {
+      "id": "v-arakis-inv-1",
+      "nome": "Corujas do além",
+      "tag": ["B"],
+      "vale": "Arakis",
+      "estilo": "Invocação",
+      "descricao": "Quatro símbolos de invocação Arakis surgem em um raio de <b>[Nível+Caos]</b> metros de você, invocando 6 espectros de corujas que obedecem você ou algum outro ser que tenha <b>Caos</b> base maior que 3. Eles compartilham a iniciativa junto a você, tendo apenas 1 ação para realizar algum movimento que não seja deslocamento. Elas compartilham a visão e a audição, uma por vez. As corujas causam metade de dano físico e metade de dano caótico. Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada rodada.",
+      "evolucoes": [
+        {"nome": "Alcateia do vazio", "tag": ["B"]},
+        {"nome": "Cemitério das almas", "tag": ["D"]}        
+      ]
+    },
+    {
+      "id": "v-arakis-inv-2",
+      "nome": "Alcateia do vazio",
+      "tag": ["T"],
+      "vale": "Arakis",
+      "estilo": "Invocação",
+      "descricao": "Oito símbolos de invocação Arakis surgem em um raio de <b>[Nível•2+Caos•2]</b> metros de você, invocando 8 lobos feitos de sombras que obedecem você ou algum outro ser que tenha <b>Caos</b> base maior que 6. Eles compartilham a iniciativa junto a você, tendo apenas 1 ação para realizar algum movimento que não seja deslocamento. Se tiver mais de uma unidade de lobo em batalha, os ataques deles terão +2 por lobo que estiver em um raio de 2 metros, assim como os seus. Os lobos causam dano caótico. Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada 2 rodadas.",
+      "evolucoes": [
+        {"nome": "Corujas do além", "tag": ["B"]},
+        {"nome": "Cemitério das almas", "tag": ["D"]}        
+      ]
+    },
+    {
+      "id": "v-arakis-inv-3",
+      "nome": "Cemitério das almas",
+      "tag": ["D"],
+      "vale": "Arakis",
+      "estilo": "Invocação",
+      "descricao": "Um grande símbolo de invocação Arakis surge em um raio de <b>[Nível•Caos]</b> metros de você, emergindo <b>[Nível+Caos]</b> almas perdidas que obedecerá você ou algum outro ser que tenha <b>Caos</b> base maior que 12. Todas as almas compartilham a mesma iniciativa, sendo o cemitério, eles possuem duas ações e uma reação, sendo sempre o último da iniciativa. A cada alma morta, recupere 1 de Vontade, e quando as todas almas morrem, o cemitério desmancha em gritos que deixam todos em um raio de <b>[Nível•Caos]</b> metros na condição <i>'Apavorado'</i>. Consome 1 de sanidade a cada 3 rodadas. Se sua sanidade acabar enquanto o cemitério estiver ativo, o efeito se torna permanente, perdendo o controle das almas, elas invocarão <b>'[Nível•2+Caos•2]'</b> almas perdidas descontroladas. Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada 3 rodadas, emergindo almas que foram derrotadas que restam para fechar o máximo de almas que pode invocar.",
+      "evolucoes": [
+        {"nome": "Corujas do além", "tag": ["B"]},
+        {"nome": "Alcateia do vazio", "tag": ["T"]}
+      ]
+    },
+    {
+      "id": "v-arakis-inv-4",
+      "nome": "Projeção fantasma",
+      "tag": ["B"],
+      "vale": "Arakis",
+      "estilo": "Invocação",
+      "descricao": "Partículas azuis formam uma projeção fantasmagórica de si mesmo em um raio de <b>[Nível+Caos]</b> metros de você, lhe obedecendo ou algum outro ser que tenha <b>Caos</b> base maior que 4. Ela compartilha a iniciativa junto a você, tendo apenas 1 ação para realizar algum movimento que não seja deslocamento. A projeção causa dano caótico. Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada rodada.",
+      "evolucoes": [
+        {"nome": "Sombra", "tag": ["B"]},
+        {"nome": "Erguer", "tag": ["D"]}        
+      ]
+    },
+    {
+      "id": "v-arakis-inv-5",
+      "nome": "Sombra",
+      "tag": ["T"],
+      "vale": "Arakis",
+      "estilo": "Invocação",
+      "descricao": "Partículas escuras moldam um ser igual a você totalmente feito de sombras em um raio de <b>[Nível•2+Caos•2]</b> metros de você, sendo imperceptível em lugares escuros, ele obedece a você ou algum outro ser que tenha <b>Caos</b> base maior que 6. Eles compartilham a iniciativa junto a você, tendo apenas 1 ação para realizar algum movimento que não seja deslocamento.<br>Quando se invoca esse monstro, todos no raio de <b>[Nível+Caos]</b> metros dele deverão fazer um teste de <b>Mente</b> com o mesmo de D.A de ativação da Arte para não ficarem <i>'Apavorado'</i>. A sombra pode assumir formas de outras coisas como desejar, porém não emite som nenhum, sendo todo ataque que não for visto, ser um ataque furtivo. A anomalia causa dano caótico. Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada 2 rodadas.",
+      "evolucoes": [
+        {"nome": "Projeção fantasma", "tag": ["B"]},
+        {"nome": "Erguer", "tag": ["D"]}        
+      ]
+    },
+    {
+      "id": "v-arakis-inv-6",
+      "nome": "Erguer",
+      "tag": ["D"],
+      "vale": "Arakis",
+      "estilo": "Invocação",
+      "descricao": "Uma criatura recém finalizada em um raio de <b>[Nível•Caos]</b> metros que você possa ver, pode ter sua alma armazenada em uma tatuagem em seu corpo, podendo ser solta a qualquer momento, obedecendo a você ou algum outro ser que tenha <b>Caos</b> base maior que 12. Pode armazenar:<ul><li>3 criaturas de categoria Base sem precisar de teste.</li><li>2 criaturas de categoria Evoluída precisando passar em um teste de <b>Caos</b> de D.A [18], com até 3 tentativas.</li><li>1 criatura de categoria Despertada precisando passar em um teste de <b>Caos</b> de D.A [24], com até 2 tentativas.</li></ul> Quanto mais forte o monstro, maior a tatuagem. Ele(s) tem a iniciativa própria, porém é sempre após ou antes de você, tendo as ações convencionais de monstro ordenadas por você. Se sua sanidade acabar enquanto esse(s) monstro(s) estiver(em) ativado, você perderá o controle dele(s) e o(s) mesmo(s) irá(ão) se tornar(em) independente(s). Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada 3 rodadas.",
+      "evolucoes": [
+        {"nome": "Projeção fantasma", "tag": ["B"]},
+        {"nome": "Sombra", "tag": ["T"]}        
+      ]
+    },
+    {
+      "id": "v-arakis-ref-1",
+      "nome": "Agilizar",
+      "tag": ["B"],
+      "vale": "Arakis",
+      "estilo": "Reforço",
+      "descricao": "Dois alvos que conseguir ver e apontar a palma da mão, uma marca Arakis surge por cima do tórax do alvo, aumentando em <b>[Nível]</b> a <b>Mobilidade</b> e <b>[Caos]</b> o deslocamento, enquanto a Arte permanecer ativa. Pode ser usado em si mesmo. Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada rodada.",
+      "evolucoes": [
+        {"nome": "Aceleração", "tag": ["B"]},
+        {"nome": "Portal", "tag": ["D"]}        
+      ]
+    },
+    {
+      "id": "v-arakis-ref-2",
+      "nome": "Aceleração",
+      "tag": ["T"],
+      "vale": "Arakis",
+      "estilo": "Reforço",
+      "descricao": "Um alvo que conseguir tocar, terá suas íris brancas, tornando-se mais veloz e possuindo instintos muito mais aguçados. O alvo recebe uma reação extra para se defender, além de que seu deslocamento é dobrado e sua <b>Mobilidade</b> aumenta em <b>[Nível•2+Caos•2]</b>, enquanto a Arte permanece ativa. Não consegue usar outras Artes enquanto está focado em acelerar. Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada 2 rodadas.",
+      "evolucoes": [
+        {"nome": "Agilizar", "tag": ["B"]},
+        {"nome": "Portal", "tag": ["D"]}        
+      ]
+    },
+    {
+      "id": "v-arakis-ref-3",
+      "nome": "Portal",
+      "tag": ["D"],
+      "vale": "Arakis",
+      "estilo": "Reforço",
+      "descricao": "Ao bater as mãos, uma fissura interespacial quebra a realidade em um raio de até <b>[Nível•Caos]</b> metros de você, que teletransporta para algum local onde já tenha visitado antes presencialmente. A fissura permite passar apenas seres e itens físicos, porém não consegue passar seres e itens com vindos nativamente de um dos vales. Não consegue usar outras Artes enquanto está focado em deixar a fissura aberta. Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada 3 rodadas.",
+      "evolucoes": [
+        {"nome": "Agilizar", "tag": ["B"]},
+        {"nome": "Aceleração", "tag": ["T"]}        
+      ]
+    },
+    {
+      "id": "v-arakis-ref-4",
+      "nome": "Expansão mental",
+      "tag": ["B"],
+      "vale": "Arakis",
+      "estilo": "Reforço",
+      "descricao": "Um alvo que conseguir ver, uma marca Arakis surge por cima da testa do alvo, ampliando sua capacidade mental em níveis extraordinários. Permite realizar testes que envolvam <b>Mente</b> com vantagem e com bônus de <b>[Nível+Caos]</b>. Pode aplicar em si mesmo. Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada rodada.",
+      "evolucoes": [
+        {"nome": "Telepatia", "tag": ["B"]},
+        {"nome": "Telecinese", "tag": ["D"]}        
+      ]
+    },
+    {
+      "id": "v-arakis-ref-5",
+      "nome": "Telepatia",
+      "tag": ["T"],
+      "vale": "Arakis",
+      "estilo": "Reforço",
+      "descricao": "Você consegue se comunicar mentalmente com um alvo que puder ver, conseguindo enviar e receber mensagens telepaticamente. Pode se comunicar com até dois alvos simultaneamente.  Pode usar a Arte para ajudar a um alvo a se defender, fornecendo um aumento de <b>+[Nível•2+Caos•2]</b>, ou atrapalhar alguma ação. penalizando com <b>-[Nível+Caos]</b>. Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada 2 rodadas.",
+      "evolucoes": [
+        {"nome": "Expansão mental", "tag": ["B"]},
+        {"nome": "Telecinese", "tag": ["D"]}        
+      ]
+    },
+    {
+      "id": "v-arakis-ref-6",
+      "nome": "Telecinese",
+      "tag": ["D"],
+      "vale": "Arakis",
+      "estilo": "Reforço",
+      "descricao": "Objetos que tenham sua <b>Mente•seu peso</b>, você conseguirá move-los mentalmente sem nenhuma dificuldade, permitindo atacar e bloquear usando <b>Mente</b>. Se torna imune a dano mental e às condições de <i>'Paralisado','Pertubado'</i>. Pode fornecer esse efeito a um alvo que conseguir tocar. Não consegue usar outras Artes enquanto está focado em mover objetos. Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada 3 rodadas.",
+      "evolucoes": [
+        {"nome": "Expansão mental", "tag": ["B"]},
+        {"nome": "Telepatia", "tag": ["T"]}        
+      ]
+    },
+    {
+      "id": "v-arakis-ref-7",
+      "nome": "Ecos do além",
+      "tag": ["B"],
+      "vale": "Arakis",
+      "estilo": "Reforço",
+      "descricao": "Sussurros ecoam na mente do alvo que puder ver, deixando-o inspirado e aprimorando suas capacidades. Pode aplicar em si mesmo. Não se pode aplicar a Arte quando o alvo estiver <i>'Pertubado'</i>. O alvo ganha resistência para não ficar <i>'Apavorado'</i>, além de fornecer vantagem no próximo teste. Não pode permanecer ativa, precisando ser reativa manualmente, consumindo novamente sanidade.",
+      "evolucoes": [
+        {"nome": "Selo fantasma", "tag": ["B"]},
+        {"nome": "Orquestra dos mortos", "tag": ["D"]}        
+      ]
+    },
+    {
+      "id": "v-arakis-ref-8",
+      "nome": "Selo fantasma",
+      "tag": ["T"],
+      "vale": "Arakis",
+      "estilo": "Reforço",
+      "descricao": "Ao tocar no alvo, um símbolo da marca Arakis aparece no local tocado, deixando-o com um aspecto fantasmagórico. O alvo com a marca consegue atravessar objetos físicos, além de ser imune a todas as condições negativas exceto <i>'Akrosys'</i>. Pode aplicar em si mesmo. Não consegue usar outras Artes enquanto está focado no selo. Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada 2 rodadas.",
+      "evolucoes": [
+        {"nome": "Ecos do além", "tag": ["B"]},
+        {"nome": "Orquestra dos mortos", "tag": ["D"]}        
+      ]
+    },
+    {
+      "id": "v-arakis-ref-9",
+      "nome": "Orquestra dos mortos",
+      "tag": ["D"],
+      "vale": "Arakis",
+      "estilo": "Reforço",
+      "descricao": "Nuvens escuras se formam independente da situação climática, começando a se moldarem em instrumentos musicais que irão reproduzir uma orquestra em um raio de <b>[Nível•Caos]</b> metros do ponto que você determinar. Você poderá determinar quais serão os alvos que deverão fazer um teste de <b>Mente</b> com a D.A [21] para não ficarem <i>'Apavorado'</i> e <i>'Pertubado'</i>, além de também poder escolher os alvos que terão 3 de seus atributos dobrados e com vantagem em um deles, recuperando também sua Vontade em 1 ponto a cada final de rodada. A música feita pelos mortos consegue estabilizar aqueles que estiverem no Estado de Morte, recuperando a consciência deles. Se tirar um <b><i>acerto crítico</b></i> ao ativar essa Arte, ela irá resetar todos os pontos de Estado de Morte, mas caso tire uma <b><i>falha crítica</b></i>, ela matará a todos. Não consegue usar outras Artes enquanto está focado na orquestra. Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada 3 rodadas.",
+      "evolucoes": [
+        {"nome": "Ecos do além", "tag": ["B"]},
+        {"nome": "Selo fantasma", "tag": ["T"]}        
       ]
     }
   ]
