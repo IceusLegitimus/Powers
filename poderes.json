@@ -104,7 +104,7 @@
       "tag": ["D"],
       "vale": "Arakis",
       "estilo": "Armamento",
-      "descricao": "Um esqueleto de um ser não humano emerge acorrentado, possuindo apenas um pingente púrpuro em seu pescoço, e por instinto, você arranca e coloca-o, deixando-lhe vulnerável por uma rodada. Enquanto isso, seus olhos se tornam pretos, deixando somente a íris roxa, suas veias ficam escuras e sua voz se torna distorcida. Você tem todas as Artes bases do Vale Arakis desbloqueadas e prontas para uso, ganha resistência a danos caóticos e danos mentais, além de poder duplicar os efeitos das Artes bases que já possua. Para desativar, precisará entrar em <i>Estado de Morte</i>, caso contrário, sua sanidade será consumida em 2 a cada 3 rodadas. Se perder toda sanidade enquanto estiver sob os efeitos da Arte, você se tornará o Lich.",
+      "descricao": "Um esqueleto de um ser não humano emerge acorrentado, possuindo apenas um pingente púrpuro em seu pescoço, e por instinto, você arranca e coloca-o, deixando-lhe vulnerável por uma rodada. Enquanto isso, seus olhos se tornam pretos, deixando somente a íris roxa, suas veias ficam escuras e sua voz se torna distorcida. Você tem todas as Artes bases do Vale Arakis desbloqueadas e prontas para uso, ganha resistência a danos caóticos e danos mentais, além de poder duplicar os efeitos das Artes bases que já possua. Para desativar, precisará entrar em <i>Estado de Morte</i>, caso contrário, sua sanidade será consumida em 2 a cada 3 rodadas. Se perder toda sanidade enquanto estiver sob os efeitos da Arte, você se tornará o <b><i>Lich</b></i>.",
       "evolucoes": [
         {"nome": "Mãos fantasmas", "tag": ["B"]},
         {"nome": "Rastros dos mortos", "tag": ["T"]}        
@@ -163,7 +163,7 @@
       "nome": "Reduzir",
       "tag": ["T"],
       "vale": "Arakis",
-      "estilo": "Armamento",
+      "estilo": "Decaimento",
       "descricao": "Marca o alvo, o deixando ainda mais enfraquecido, podendo reduzir 3 dos atributos e o deslocamento pela metade, ou reduzir os danos causados pela metade, ou reduzir o turno dele apenas para ele ter uma reação. O alvo precisa passar num teste de <b>Caos</b> com a mesma D.A de ativação dessa Arte para não ser afetado ou sair do decaimento. Não consegue usar outras Artes enquanto está a reduzir. Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada 2 rodadas.",
       "evolucoes": [
         {"nome": "Enfraquecer", "tag": ["B"]},
@@ -175,8 +175,8 @@
       "nome": "Anular",
       "tag": ["D"],
       "vale": "Arakis",
-      "estilo": "Armamento",
-      "descricao": "Ao mover de uma das mãos, permite anular uma ação ou uma reação, ou uma outra Arte ativa ou passiva, ou anular uma condição negativa, isso se puder ver o que quer que seja anulado ou a força que causa o efeito que deseja anular. É impossível um alvo escapar, exceto se alguém Anular sua Arte. Não pode permanecer ativa, precisando ser reativa manualmente, consumindo novamente sanidade. ",
+      "estilo": "Decaimento",
+      "descricao": "Ao mover de uma das mãos, permite anular uma ação ou uma reação, ou uma outra Arte ativa ou passiva, ou anular uma condição negativa, isso se puder ver o que quer que seja anulado ou a força que causa o efeito que deseja anular. É impossível um alvo escapar, exceto se alguém anular sua Arte. Não pode permanecer ativa, precisando ser reativa manualmente, consumindo novamente sanidade. ",
       "evolucoes": [
         {"nome": "Enfraquecer", "tag": ["B"]},
         {"nome": "Reduzir", "tag": ["T"]}        
@@ -199,7 +199,7 @@
       "nome": "Resquícios do fim",
       "tag": ["T"],
       "vale": "Arakis",
-      "estilo": "Armamento",
+      "estilo": "Decaimento",
       "descricao": "Marca um alvo que conseguir ver, o fazendo ter visões perturbadoras sobre um futuro distópico, deixando-o <i>'Pertubado'</i> e <i>'Apavorado'</i>. O alvo precisa passar num teste de <b>Caos</b> com a mesma D.A de ativação dessa Arte para não ser afetado ou sair do decaimento. Não consegue usar outras Artes enquanto está a perturbar. Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada 2 rodadas.",
       "evolucoes": [
         {"nome": "Falhas de sentidos", "tag": ["B"]},
@@ -211,7 +211,7 @@
       "nome": "Rio dos mortos",
       "tag": ["D"],
       "vale": "Arakis",
-      "estilo": "Armamento",
+      "estilo": "Decaimento",
       "descricao": "Uma névoa cobre uma região ondulada de até <b>[Nível•Caos]</b> metros, formando uma espécie de rio enevoado. Quem permanecer dentro da névoa verá alucinações de momentos felizes sendo totalmente distorcidos e se tornando situações grotescas, sendo tão reais que é como se estivesse realmente ali. Aqueles que estiverem dentro da névoa perderão 1 de Sanidade por fim de rodada, além de ficarem <i>'Exausto'</i> e <i>'Pertubado'</i>. Se um alvo tiver sua sanidade zerada dentro da névoa, ele se torna um <b><i>Esquecido</b></i>. Você não e até <b>[Nível]</b> alvos não são influenciados pela sua Arte. Não consegue usar outras Artes enquanto está a iludir. Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada 3 rodadas.",
       "evolucoes": [
         {"nome": "Falhas de sentidos", "tag": ["B"]},
@@ -235,7 +235,7 @@
       "nome": "Hipnotizar",
       "tag": ["T"],
       "vale": "Arakis",
-      "estilo": "Armamento",
+      "estilo": "Decaimento",
       "descricao": "Ao entrar em contato visual com o alvo, marque-o, o deixando hipnotizado por você. O alvo precisa passar num teste de <b>Mente</b> com a mesma D.A de ativação dessa Arte para não ser afetado ou sair do decaimento. Ele seguirá ordens não complexas e que não o submeta a situações de estresse, caso contrário ele conseguirá dissipar sua hipnose. Não consegue usar outras Artes enquanto está a hipnotizar. Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada 2 rodadas.",
       "evolucoes": [
         {"nome": "Apavorar", "tag": ["B"]},
@@ -247,8 +247,8 @@
       "nome": "Controlar",
       "tag": ["D"],
       "vale": "Arakis",
-      "estilo": "Armamento",
-      "descricao": "Ao tocar no alvo, o sistema nervoso dele fica estático por um segundo, e nesse segundo você consegue acessar a mente dele, permitindo controlá-lo como quiser, podendo fazê-lo seguir ordens complexas e que submeta a situações de estresse. O alvo precisa passar num teste de <b>Mente</b> com a mesma D.A de ativação dessa Arte para sair do decaimento, ou lembrar de quem realmente é ele e quem o está controlando. Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada 3 rodadas.",
+      "estilo": "Decaimento",
+      "descricao": "Ao tocar no alvo, o sistema nervoso dele fica estático por um segundo, e nesse segundo você consegue acessar a mente dele, permitindo controlá-lo como quiser, podendo fazê-lo seguir ordens complexas e que submeta a situações de estresse. O alvo precisa passar num teste de <b>Mente</b> [24] para sair do decaimento, ou lembrar de quem realmente é ele e quem o está controlando. Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada 3 rodadas.",
       "evolucoes": [
         {"nome": "Apavorar", "tag": ["B"]},
         {"nome": "Hipnotizar", "tag": ["T"]}        
@@ -284,7 +284,7 @@
       "tag": ["D"],
       "vale": "Arakis",
       "estilo": "Disparo",
-      "descricao": "Dentro de um raio de <b>[Nível•Caos]</b> metros, um feixe prismático é disparado de um símbolo de invocação Arakis, repartindo seu dano em 5: dano físico, dano flamejante, dano eletrizante, dano congelante, dano necrótico e dano caótico. Além disso, caso o disparo seja bem sucedido, role 1d6 para aplicar uma das seguintes condições negativas: <i>'Sangramento', 'Em chamas', 'Eletrizado', 'Congelamento', 'Necrosando' ou 'Akrosys'. Não pode permanecer ativa, precisando ser reativa manualmente, consumindo novamente sanidade.",
+      "descricao": "Dentro de um raio de <b>[Nível•Caos]</b> metros, um feixe prismático é disparado de um símbolo de invocação Arakis, repartindo seu dano em 5: dano físico, dano flamejante, dano eletrizante, dano congelante, dano necrótico e dano caótico. Além disso, caso o disparo seja bem sucedido, role 1d6 para aplicar uma das seguintes condições negativas: <i>'Sangramento', 'Em chamas', 'Eletrizado', 'Congelamento', 'Necrosando'</i> ou <i>'Akrosys'</i>. Não pode permanecer ativa, precisando ser reativa manualmente, consumindo novamente sanidade.",
       "evolucoes": [
         {"nome": "Feixe cristalizado", "tag": ["B"]},
         {"nome": "Feixe invisível", "tag": ["T"]}        
@@ -320,7 +320,7 @@
       "tag": ["D"],
       "vale": "Arakis",
       "estilo": "Disparo",
-      "descricao": "Ao bater das palmas, uma singularidade se forma entre suas mãos, sendo jogada para frente, ela aumenta seu tamanho em 1 metro a cada 2 metros, possuindo 2 áreas de efeitos: <i>Horizonte de Eventos e Limite de Eventos</i>. O Horizonte de Eventos fica a [Nível•Caos] metros do Limite de Eventos, e todos que estiverem dentro desse campo, será aplicado <i>'Lentidão'</i> e serão puxados para o Limite de Eventos. Dentro do Limite de Eventos é onde causa o desastre, pois causa dano físico e dano caótico absurdo, sendo a o <b>[Tamanho atual do Gargantua•Resultado total do dado]</b>. Quem estiver dentro do Horizonte de Eventos precisa fazer um teste de <b>Constituição</b> a cada início de rodada com a mesma D.A de ativação dessa Arte para não envelhecer por 1 ano. Para desativar a Arte é necessário usar a <b>Arte Arakis – Anular</b>, caso contrário, o buraco negro se expandirá cada vez mais, consumindo estruturas e seres descontrolavemente.",
+      "descricao": "Ao bater das palmas, uma singularidade se forma entre suas mãos, sendo jogada para frente, ela aumenta seu tamanho em 1 metro a cada 2 metros, possuindo 2 áreas de efeitos: <i>Horizonte de Eventos e Limite de Eventos</i>. O Horizonte de Eventos fica a <b>[Nível•Caos]</b> metros do Limite de Eventos, e todos que estiverem dentro desse campo, será aplicado <i>'Lentidão'</i> e serão puxados para o Limite de Eventos. Dentro do Limite de Eventos é onde causa o desastre, pois causa dano físico e dano caótico absurdo, sendo a o <b>[Tamanho atual do Gargantua•Resultado total do dado]</b>. Quem estiver dentro do Horizonte de Eventos precisa fazer um teste de <b>Constituição</b> a cada início de rodada com a mesma D.A de ativação dessa Arte para não envelhecer por 1 ano. Para desativar a Arte é necessário usar a <b>Arte Arakis – Anular</b>, caso contrário, o buraco negro se expandirá cada vez mais, consumindo estruturas e seres descontrolavemente.",
       "evolucoes": [
         {"nome": "Estrelas cadentes", "tag": ["B"]},
         {"nome": "Chuva cósmica", "tag": ["T"]}        
@@ -356,7 +356,7 @@
       "tag": ["D"],
       "vale": "Arakis",
       "estilo": "Invocação",
-      "descricao": "Um grande símbolo de invocação Arakis surge em um raio de <b>[Nível•Caos]</b> metros de você, emergindo <b>[Nível+Caos]</b> almas perdidas que obedecerá você ou algum outro ser que tenha <b>Caos</b> base maior que 12. Todas as almas compartilham a mesma iniciativa, sendo o cemitério, eles possuem duas ações e uma reação, sendo sempre o último da iniciativa. A cada alma morta, recupere 1 de Vontade, e quando as todas almas morrem, o cemitério desmancha em gritos que deixam todos em um raio de <b>[Nível•Caos]</b> metros na condição <i>'Apavorado'</i>. Consome 1 de sanidade a cada 3 rodadas. Se sua sanidade acabar enquanto o cemitério estiver ativo, o efeito se torna permanente, perdendo o controle das almas, elas invocarão <b>'[Nível•2+Caos•2]'</b> almas perdidas descontroladas. Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada 3 rodadas, emergindo almas que foram derrotadas que restam para fechar o máximo de almas que pode invocar.",
+      "descricao": "Um grande símbolo de invocação Arakis surge em um raio de <b>[Nível•Caos]</b> metros de você, emergindo <b>[Nível+Caos]</b> almas perdidas que obedecerá você ou algum outro ser que tenha <b>Caos</b> base maior que 12. Todas as almas compartilham a mesma iniciativa, sendo o cemitério, eles possuem duas ações e uma reação, sendo sempre o último da iniciativa. A cada alma morta, recupere 1 de Vontade, e quando as todas almas morrem, o cemitério desmancha em gritos que deixam todos em um raio de <b>[Nível•Caos]</b> metros na condição <i>'Apavorado'</i>. Consome 1 de sanidade a cada 3 rodadas. Se sua sanidade acabar enquanto o cemitério estiver ativo, o efeito se torna permanente, perdendo o controle das almas, elas invocarão <b>[Nível•2+Caos•2]</b> almas perdidas descontroladas. Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada 3 rodadas, emergindo almas que foram derrotadas que restam para fechar o máximo de almas que pode invocar.",
       "evolucoes": [
         {"nome": "Corujas do além", "tag": ["B"]},
         {"nome": "Alcateia do vazio", "tag": ["T"]}
@@ -504,6 +504,294 @@
       "evolucoes": [
         {"nome": "Ecos do além", "tag": ["B"]},
         {"nome": "Selo fantasma", "tag": ["T"]}        
+      ]
+    },
+    {
+      "id": "v-akram-arm-1",
+      "nome": "Carrasco necrótico",
+      "tag": ["B"],
+      "vale": "Akram",
+      "estilo": "Armamento",
+      "descricao": "Partículas formam uma fumaça negra que moldam um machado de duas mãos que causa metade de dano físico e metade de dano necrótico. Só pode ser portado por você ou um ser com mais de 3 de <b>Caos</b>. Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada rodada.",
+      "evolucoes": [
+        {"nome": "Foice escarlate", "tag": ["T"]},
+        {"nome": "Montante negro", "tag": ["D"]}        
+      ]
+    },
+    {
+      "id": "v-akram-arm-2",
+      "nome": "Foice escarlate",
+      "tag": ["T"],
+      "vale": "Akram",
+      "estilo": "Armamento",
+      "descricao": "Partículas formam sangue e o sangue se solidifica formando uma foice que causa metade de dano físico e metade de dano necrótico. Causa <b>[Nível•2+Caos•2]</b> de dano necrótico se o alvo tiver menos <b>Constituição</b> que a sua <b>Constituição</b> base. Só pode ser portado por você ou um ser com mais de 6 de <b>Caos</b>. Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada 2 rodadas.",
+      "evolucoes": [
+        {"nome": "Carrasco necrótico", "tag": ["B"]},
+        {"nome": "Montante negro", "tag": ["D"]}        
+      ]
+    },
+    {
+      "id": "v-akram-arm-3",
+      "nome": "Montante negro",
+      "tag": ["D"],
+      "vale": "Akram",
+      "estilo": "Armamento",
+      "descricao": "Uma armadura selada emerge com uma espada grande cravada no seu peito na sua frente, precisando de ter um par de mãos extras ou ter 9 ou mais de <b>Violência</b> para empunhar sem tomar penalidade de -10 a cada ação com a espada. Alvos em um raio de <b>[Nível•Caos]</b> metros do montante levarão dano flamejante exceto quem portar a espada. Causa um terço do dano total em dano físico, um terço de dano necrótico e um terço de dano flamejante. Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada 3 rodadas.",
+      "evolucoes": [
+        {"nome": "Carrasco necrótico", "tag": ["B"]},
+        {"nome": "Foice escarlate", "tag": ["T"]}        
+      ]
+    },
+    {
+      "id": "v-akram-arm-4",
+      "nome": "Mãos abissais",
+      "tag": ["B"],
+      "vale": "Akram",
+      "estilo": "Armamento",
+      "descricao": "Partículas formam sangue e o sangue se solidifica nas suas costelas formando um par de braços monstruosos que permite aumentar em <b>[Nível]</b> sua <b>Violência</b>, sendo controladas como se fosse parte de seu corpo. Pode usar essa Arte mais uma vez para ter um novo par de braços monstruosos por cima de seu ombro, aumentando novamente sua Violência, adicionando <b>[Caos]</b> no atributo. Causa dano físico se for de impacto e metade de dano físico e metade de dano necrótico se for de perfuração ou cortante. Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada rodada.",
+      "evolucoes": [
+        {"nome": "Máscara devoradora", "tag": ["T"]},
+        {"nome": "Armadura negra", "tag": ["D"]}        
+      ]
+    },
+    {
+      "id": "v-akram-arm-5",
+      "nome": "Máscara devoradora",
+      "tag": ["T"],
+      "vale": "Akram",
+      "estilo": "Armamento",
+      "descricao": "Partículas formam sangue e o sangue se solidifica em seu rosto, criando uma máscara grotesca que aperfeiçoa sua percepção, rolando a mesma com vantagem quando necessário. A máscara faz com que seja capaz de morder e devorar qualquer coisa que não seja indestrutível. Ela consome sua sanidade em 1 ponto a cada 2 rodadas. Causa metade de dano físico e a outra metade de dano necrótico. Para desativar é necessário passar em um teste de <b>Caos</b> com a mesma D.A de ativação, caso contrário, se zerar a sanidade utilizando a máscara, você se tornará um <b><i>Devorador</b></i>.",
+      "evolucoes": [
+        {"nome": "Mãos abissais", "tag": ["B"]},
+        {"nome": "Armadura negra", "tag": ["D"]}        
+      ]
+    },
+    {
+      "id": "v-akram-arm-6",
+      "nome": "Armadura negra",
+      "tag": ["D"],
+      "vale": "Akram",
+      "estilo": "Armamento",
+      "descricao": "Uma espada grande emerge com selos de proteção, e por instinto, você a retira e a enfinca em seu peito, porém não causa dano, em vez disso, a espada começa a se moldar por dentro de sua pele, lhe transformando em uma armadura viva. Reduz danos físicos em <b>[Nível•Caos]</b> pontos, tem imunidade a danos caóticos, danos necróticos, danos flamejantes, danos mentais e todas as condições negativas que não seja <b>'Akrosys'</b>. Alvos em um raio de <b>[Nível•2+Caos•2]</b> metros poderão ficar na condição <i>'Apavorado'</i> com você sendo a fonte. Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada rodada.",
+      "evolucoes": [
+        {"nome": "Mãos abissais", "tag": ["B"]},
+        {"nome": "Máscara devoradora", "tag": ["T"]}        
+      ]
+    },
+    {
+      "id": "v-akram-arm-7",
+      "nome": "Correntes flamejantes",
+      "tag": ["B"],
+      "vale": "Akram",
+      "estilo": "Armamento",
+      "descricao": "Partículas formam fagulhas e as fagulhas formam correntes que se prendem ao seu antebraço, lhe causando <b>[Nível]</b> de dano flamejante na primeira ativação. Causa metade de dano físico e a outra metade de dano flamejante. Pode aplicar a condição <i>'Em chamas'</i> caso o alvo não passe em um teste de <b>Constituição</b> [15]. Só pode ser portado por você ou um ser com mais de 3 de <b>Caos</b>. Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada rodada.",
+      "evolucoes": [
+        {"nome": "Chicote de ossos", "tag": ["T"]},
+        {"nome": "Dama negra", "tag": ["D"]}        
+      ]
+    },
+    {
+      "id": "v-akram-arm-8",
+      "nome": "Chicote de ossos",
+      "tag": ["T"],
+      "vale": "Akram",
+      "estilo": "Armamento",
+      "descricao": "Um esqueleto de um humano emerge do chão e se desmonta na sua frente, remontando em um chicote de ossos e cartilagem que se equipa automaticamente na sua mão. O chicote pode alternar para ter espinhos que causam dano físico perfurante, além de se prender em objetos sólidos com um pouco mais de facilidade. Causa metade de dano físico e a outra metade de dano necrótico. Só pode ser portado por você ou um ser com mais de 6 de <b>Caos</b>. Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada 2 rodadas.",
+      "evolucoes": [
+        {"nome": "Correntes flamejantes", "tag": ["B"]},
+        {"nome": "Dama negra", "tag": ["D"]}        
+      ]
+    },
+    {
+      "id": "v-akram-arm-9",
+      "nome": "Dama negra",
+      "tag": ["D"],
+      "vale": "Akram",
+      "estilo": "Armamento",
+      "descricao": "Uma dama de ferro de cores negras surge acorrentando o alvo, colocando na condição <b>'Aprisionado'</b>, a dama o puxa para seu interior que não há espinhos a priori, porém quando o alvo fica preso lá, só conseguirá se soltar caso passe em um teste de Caos [24]. A dama negra vai amassar, cortar, perfurar e queimar o alvo, e seus gritos serão abafados. Se o alvo não morrer pela dama, irá aplicar <i>'Sangramento'</i> e <i>'Em chamas'</i>, e a dama esperará o próximo que entrar no raio de ação dela que é <b>[Nível•Caos]</b>. Se o alvo morrer, a dama volta para o Vale Akram. Causa metade de dano físico e a outra metade de dano flamejante. Não consegue usar outras Artes enquanto a dama estiver ativa, e para desativá-la, precisará alimentá-la com algum ser vivo, caso contrário, ela devorará permanentemente a sanidade consumida anteriormente utilizada para ativa-lá.",
+      "evolucoes": [
+        {"nome": "Correntes flamejantes", "tag": ["B"]},
+        {"nome": "Chicote de ossos", "tag": ["T"]}        
+      ]
+    },
+    {
+      "id": "v-akram-dec-1",
+      "nome": "Letargiar",
+      "tag": ["B"],
+      "vale": "Akram",
+      "estilo": "Decaimento",
+      "descricao": "Marca um alvo que conseguir ver, aplicando-o <i>'Lentidão'</i> . O alvo precisa passar num teste de <b>Caos</b> [15] para não ser afetado ou sair do decaimento. Não consegue usar outras Artes enquanto está a letargiar. Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada rodada.",
+      "evolucoes": [
+        {"nome": "Letargiar", "tag": ["T"]},
+        {"nome": "Atrapalhar", "tag": ["D"]}        
+      ]
+    },
+    {
+      "id": "v-akram-dec-2",
+      "nome": "Atrapalhar",
+      "tag": ["T"],
+      "vale": "Akram",
+      "estilo": "Decaimento",
+      "descricao": "Marca um alvo que conseguir ver, o deixando por último na iniciativa independentemente de acerto crítico, além de impor desvantagens em testes de ação ou reação. Enquanto a Arte estiver ativa, as condições impostas por ela perdurarão. O alvo precisa passar num teste de <b>Caos</b> [20] para não ser afetado ou sair do decaimento. Não consegue usar outras Artes enquanto está a atrapalhar. Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada rodada.",
+      "evolucoes": [
+        {"nome": "Letargiar", "tag": ["B"]},
+        {"nome": "Parada cardíaca", "tag": ["D"]}        
+      ]
+    },
+    {
+      "id": "v-akram-dec-3",
+      "nome": "Parada cardíaca",
+      "tag": ["D"],
+      "vale": "Akram",
+      "estilo": "Decaimento",
+      "descricao": "Marca um alvo que conseguir ver, se o mesmo tiver um coração orgânico, ele irá parar, aplicando <i>'Paralisia'</i>, além de que o deixará com 1 de Vitalidade na primeira rodada, metade na segunda e um terço na terceira, até o efeito dissipar. Não consegue usar outras Artes enquanto está a parar o coração. O alvo não consegue escapar da Arte a não ser que use um Artefato ou a <b><i>Arte - Anular</b></i>. Não pode permanecer ativa, precisando ser reativa manualmente, consumindo novamente sanidade. ",
+      "evolucoes": [
+        {"nome": "Letargiar", "tag": ["B"]},
+        {"nome": "Atrapalhar", "tag": ["T"]}        
+      ]
+    },
+    {
+      "id": "v-akram-dec-4",
+      "nome": "Cortes invisíveis",
+      "tag": ["B"],
+      "vale": "Akram",
+      "estilo": "Decaimento",
+      "descricao": "Um alvo que possa ver terá seu corpo cortado em várias partes, sendo que não há como escapar quando se é o alvo. Causa dano físico. Pode aplicar a condição <i>'Sangramento'</i> caso o alvo não passe em um teste de <b>Constituição</b> [15]. Não pode permanecer ativa, precisando ser reativa manualmente, consumindo novamente sanidade.",
+      "evolucoes": [
+        {"nome": "Sangue podre", "tag": ["T"]},
+        {"nome": "Bolhas de sangue", "tag": ["D"]}        
+      ]
+    },
+    {
+      "id": "v-akram-dec-5",
+      "nome": "Sangue podre",
+      "tag": ["T"],
+      "vale": "Akram",
+      "estilo": "Decaimento",
+      "descricao": "Dois alvos que possa ver, se eles tiverem sangue, os mesmo irão começar a apodrecer, resultando em tosses acompanhadas com sangue mais escuro, sendo que não há como escapar quando se é os alvos. Se o alvo tiver uma <b>Constituição</b> igual ou menor que a sua <b>Constituição</b> base, aplicará a condição <i>'Necrosando'</i>. Causa dano necrótico. Não consegue usar outras Artes enquanto está a apodrecer o sangue. Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada 2 rodadas.",
+      "evolucoes": [
+        {"nome": "Cortes invisíveis", "tag": ["B"]},
+        {"nome": "Bolhas de sangue", "tag": ["D"]}        
+      ]
+    },
+    {
+      "id": "v-akram-dec-6",
+      "nome": "Bolhas de sangue",
+      "tag": ["D"],
+      "vale": "Akram",
+      "estilo": "Decaimento",
+      "descricao": "Um alvo que possa ver, se ele tiver sangue, o mesmo sentirá sua pele fervilhar e em instantes, bolhas de sangue se formaram pelo corpo, deixando altamente sensível. O alvo ao fazer uma ação ou reação, pode rolar com desvantagem para evitar levar <b>[Nível•Caos]</b> de dano físico. Ataques bem sucedidos contra o alvo causarão o dobro de dano total. Bolhas continuam a formar enquanto o efeito da Arte perdurar. Pode aplicar a condição <i>'Sangramento'</i> caso o alvo não passe em um teste de <b>Constituição</b> [24] a cada final de rodada. Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada 3 rodadas.",
+      "evolucoes": [
+        {"nome": "Cortes invisíveis", "tag": ["B"]},
+        {"nome": "Sangue podre", "tag": ["T"]}        
+      ]
+    },
+    {
+      "id": "v-akram-dec-7",
+      "nome": "Espectro vampírico",
+      "tag": ["B"],
+      "vale": "Akram",
+      "estilo": "Decaimento",
+      "descricao": "Ao tocar em um alvo com uma das mãos, absorva parte da Vitalidade do mesmo para si. Ambas as mãos conseguem absorver. Se o alvo tiver uma <b>Constituição</b> menor que a sua <b>Constituição</b> base, aplicará a condição <i>'Necrosando'</i>. Causa dano necrótico. Não pode permanecer ativa, precisando ser reativa manualmente, consumindo novamente sanidade.",
+      "evolucoes": [
+        {"nome": "Selo hemomante", "tag": ["T"]},
+        {"nome": "Marionete de sangue", "tag": ["D"]}        
+      ]
+    },
+    {
+      "id": "v-akram-dec-8",
+      "nome": "Selo hemomante",
+      "tag": ["T"],
+      "vale": "Akram",
+      "estilo": "Decaimento",
+      "descricao": "Ao tocar em um alvo com uma das mãos, marque-o com um selo Akram que impede regenerar-se por qualquer meio. Além disso, o primeiro ataque bem sucedido contra o alvo marcado, aplicará a condição <i>'Sangramento'</i>. O selo permite que o você consiga sentir a presença do mesmo dentro do raio de ação. Não consegue usar outras Artes enquanto está a selar. Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada 2 rodadas.",
+      "evolucoes": [
+        {"nome": "Espectro vampírico", "tag": ["B"]},
+        {"nome": "Marionete de sangue", "tag": ["D"]}        
+      ]
+    },
+    {
+      "id": "v-akram-dec-9",
+      "nome": "Marionete de sangue",
+      "tag": ["D"],
+      "vale": "Akram",
+      "estilo": "Decaimento",
+      "descricao": "Ao tocar no sangue do alvo com uma das mãos, partículas do próprio sangue formarão fios praticamente invisíveis aos olhos que são capazes de controlar o alvo de boa vontade. Cada ação feita contra a vontade do alvo, o mesmo poderá realizar um teste de <b>Caos</b> [24] impedir que a ação seja feita, além de que a cada final de 3 rodadas ele pode realizar um teste para sair do controle. Você pode gastar uma reação para impedir que o alvo realize uma ação ou reação. Não consegue usar outras Artes enquanto está a controlar a marionete. Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada 3 rodadas.",
+      "evolucoes": [
+        {"nome": "Espectro vampírico", "tag": ["B"]},
+        {"nome": "Selo hemomante", "tag": ["T"]}        
+      ]
+    },
+    {
+      "id": "v-akram-dis-1",
+      "nome": "Feixe dourado",
+      "tag": ["B"],
+      "vale": "Akram",
+      "estilo": "Disparo",
+      "descricao": "Dentro de um raio de <b>[Nível+Caos]</b> metros do alvo, um feixe dourado é disparado de um símbolo de invocação Akram, atingindo e perfurando o alvo, podendo atingir um outro alvo que estiver dentro do raio de ação da Arte. A perfuração <u>não</u> é o suficiente para causar deixar <i>'Sangramento'</i>. Pode aplicar a condição <i>'Eletrizado'</i> caso o alvo não passe em um teste de <b>Constituição</b> [15]. Causa dano eletrizante. Não pode permanecer ativa, precisando ser reativa manualmente, consumindo novamente sanidade.",
+      "evolucoes": [
+        {"nome": "Feixe ígneo", "tag": ["T"]},
+        {"nome": "Feixe negro", "tag": ["D"]}        
+      ]
+    },
+    {
+      "id": "v-akram-dis-2",
+      "nome": "Feixe ígneo",
+      "tag": ["T"],
+      "vale": "Akram",
+      "estilo": "Disparo",
+      "descricao": "Dentro de um raio de <b>[Nível•2+Caos•2]</b> metros do alvo, um feixe escarlate é disparado de um símbolo de invocação Akram, atingindo um alvo e aplicando a condição <i>'Em chamas'</i>. As chamas do feixe ignoram se o alvo tem imunidade ou resistência a chamas. Causa dano flamejante. Não pode permanecer ativa, precisando ser reativa manualmente, consumindo novamente sanidade.",
+      "evolucoes": [
+        {"nome": "Feixe dourado", "tag": ["B"]},
+        {"nome": "Feixe negro", "tag": ["D"]}        
+      ]
+    },
+    {
+      "id": "v-akram-dis-3",
+      "nome": "Feixe negro",
+      "tag": ["D"],
+      "vale": "Akram",
+      "estilo": "Disparo",
+      "descricao": "Dentro de um raio de <b>[Nível•Caos]</b> metros do alvo, um feixe preto é disparado de um símbolo de invocação Akram, podendo se bifurcar a sua escolha, repartindo o dano total para dois alvos dentro do raio de ação da Arte. Se o alvo tiver uma <b>Constituição<b> menor que a sua <b>Constituição</b> base, aplicará a condição <i>'Necrosando'</i>. Se decidir não bifurcar, o feixe reduzirá da Vitalidade máxima do alvo baseado no dano causado pela Arte, perdurando o efeito até ser usado a <b><i>Arte - Anular</b></i> para dissipar o efeito. Causa dano necrótico. Não pode permanecer ativa, precisando ser reativa manualmente, consumindo novamente sanidade.",
+      "evolucoes": [
+        {"nome": "Feixe dourado", "tag": ["B"]},
+        {"nome": "Feixe ígneo", "tag": ["T"]}        
+      ]
+    },
+    {
+      "id": "v-akram-dis-4",
+      "nome": "Bola de fogo",
+      "tag": ["B"],
+      "vale": "Akram",
+      "estilo": "Disparo",
+      "descricao": "Partículas formam fagulhas que se moldam em uma esfera de chamas que pode ser disparada assim que ativada, podendo ser afetada pela gravidade. Ao atingir uma superfície, ela explode, causando dano flamejante e deixando uma região de um raio de [Nível+Caos] metros coberta por chamas, causando dano flamejante a quem permanecer nela durante a rodada, exceto você. A região permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada rodada. Precisa ser reativa manualmente caso deseje outra explosão de dano, consumindo novamente sanidade.",
+      "evolucoes": [
+        {"nome": "Mísseis pútridos", "tag": ["T"]},
+        {"nome": "Tormenta ácida", "tag": ["D"]}        
+      ]
+    },
+    {
+      "id": "v-akram-dis-5",
+      "nome": "Mísseis pútridos",
+      "tag": ["T"],
+      "vale": "Akram",
+      "estilo": "Disparo",
+      "descricao": "Cinco símbolos de invocação Akram surgem por trás de você, disparando cinco mísseis feitos de um matérial negro e podre que perseguem o alvo que estiver no seu campo de visão. Pode aplicar a condição <i>'Necrosando'</i> caso o alvo não passe em um teste de <b>Constituição</b> [20]. Causa dano necrótico. Não consegue usar outras Artes enquanto está manipulando os mísseis. Não pode permanecer ativa, precisando ser reativa manualmente, consumindo novamente sanidade.",
+      "evolucoes": [
+        {"nome": "Bola de fogo", "tag": ["B"]},
+        {"nome": "Tormenta ácida", "tag": ["D"]}        
+      ]
+    },
+    {
+      "id": "v-akram-dis-6",
+      "nome": "Tormenta ácida",
+      "tag": ["D"],
+      "vale": "Akram",
+      "estilo": "Disparo",
+      "descricao": "Uma tempestade se forma independente da situação climática, começando a chover gotas extremamente ácidas em um raio de <b>[Nível•Caos]<b> metros do ponto que você determinar. Além disso, você pode determinar alvos que não precisarão se proteger da tempestade. Enquanto a tormenta permanecer no céu, você pode realizar até 3 raios esverdeados que causarão metade de dano ácido e a outra metade de dano eletrizante, sendo impossíveis de se defender exceto se tiver uma Arte apropriada. Não consegue usar outras Artes enquanto está controlar a tormenta. Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada 3 rodadas.",
+      "evolucoes": [
+        {"nome": "Bola de fogo", "tag": ["B"]},
+        {"nome": "Mísseis pútridos", "tag": ["T"]}        
       ]
     }
   ]
