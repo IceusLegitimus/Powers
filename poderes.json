@@ -793,6 +793,186 @@
         {"nome": "Bola de fogo", "tag": ["B"]},
         {"nome": "Mísseis pútridos", "tag": ["T"]}        
       ]
+    },
+    {
+      "id": "v-akram-inv-1",
+      "nome": "Abutres necróticos",
+      "tag": ["B"],
+      "vale": "Akram",
+      "estilo": "Invocação",
+      "descricao": "Seis símbolos de invocação Akram surgem em um raio de <b>[Nível+Caos]</b> metros de você, invocando seis abutres mortos-vivos que obedecem você ou algum outro ser que tenha <b>Caos</b> base maior que 3. Eles compartilham a iniciativa junto a você, tendo apenas 1 ação para realizar algum movimento que não seja deslocamento. Podem aplicar a condição <i>'Necrosando'</i> caso o alvo não passe em um teste de <b>Constituição</b> [15] a cada ataque bem sucedido. Os abutres causam metade de dano físico e metade de dano necrótico. Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada rodada.",
+      "evolucoes": [
+        {"nome": "Centopeias de sangue", "tag": ["T"]},
+        {"nome": "Wyvern apodrecido", "tag": ["D"]}        
+      ]
+    },
+    {
+      "id": "v-akram-inv-2",
+      "nome": "Centopeias de sangue",
+      "tag": ["T"],
+      "vale": "Akram",
+      "estilo": "Invocação",
+      "descricao": "Três símbolos de invocação Akram surgem em um raio de <b>[Nível•2+Caos•2]</b> metros de você, invocando três centopeias de sangue que obedecem você ou algum outro ser que tenha <b>Caos</b> base maior que 6. Eles compartilham a iniciativa junto a você, tendo apenas 1 ação para realizar algum movimento que não seja deslocamento. Podem aplicar a condição 'Sangramento' caso o alvo não passe em um teste de <b>Constituição<b> [20]. a cada ataque bem sucedido. As centopeias causam dano físico. Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada 2 rodadas.",
+      "evolucoes": [
+        {"nome": "Abutres necróticos", "tag": ["B"]},
+        {"nome": "Wyvern apodrecido", "tag": ["D"]}        
+      ]
+    },
+    {
+      "id": "v-akram-inv-3",
+      "nome": "Wyvern apodrecido",
+      "tag": ["D"],
+      "vale": "Akram",
+      "estilo": "Invocação",
+      "descricao": "Um símbolo de invocação Akram surge por trás de você, invocando um único <b><i>Wyvern Apodrecido</b></i>, um monstro despertado que obedecerá você ou algum outro ser que tenha <b>Caos</b> base maior que 12. Ele tem a iniciativa própria, porém é sempre após ou antes de você, tendo as ações convencionais de monstro ordenadas por você. Quando se invoca esse monstro, todos no raio de <b>[Nível•Caos]</b> metros dele deverão fazer um teste de <b>Mente</b> [24] para não ficarem na condição <i>'Apavorado'</i>. Pode ser usado como montaria. Consome 1 de sanidade a cada 3 rodadas. Se sua sanidade acabar enquanto esse monstro estiver ativado, você perderá o controle dele e o mesmo irá se tornar independente. Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada 3 rodadas.",
+      "evolucoes": [
+        {"nome": "Abutres necróticos", "tag": ["B"]},
+        {"nome": "Centopeias de sangue", "tag": ["T"]}        
+      ]
+    },
+    {
+      "id": "v-akram-inv-4",
+      "nome": "Esqueletos flamejantes",
+      "tag": ["B"],
+      "vale": "Akram",
+      "estilo": "Invocação",
+      "descricao": "Quatro símbolos de invocação Akram surgem em um raio de <b>[Nível+Caos]</b> metros de você, invocando quatro esqueletos flamejantes que obedecem você ou algum outro ser que tenha <b>Caos</b> base maior que 3. Eles compartilham a iniciativa junto a você, tendo apenas 1 ação para realizar algum movimento que não seja deslocamento. Pode aplicar a condição 'Em chamas' caso o alvo não passe em um teste de Constituição [15] a cada ataque bem sucedido. Os esqueletos causam metade de dano físico e metade de dano flamejante. Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada rodada.",
+      "evolucoes": [
+        {"nome": "Carniceiros", "tag": ["T"]},
+        {"nome": "Campeão macabro", "tag": ["D"]}        
+      ]
+    },
+    {
+      "id": "v-akram-inv-5",
+      "nome": "Carniceiros",
+      "tag": ["T"],
+      "vale": "Akram",
+      "estilo": "Invocação",
+      "descricao": "Dois símbolos de invocação Akram surgem em um raio de <b>[Nível•2+Caos•2]</b> metros de você, invocando um <b><i>Carniçal</b></i> e um <b><i>Devorador</b></i> que obedecem você ou algum outro ser que tenha <b>Caos</b> base maior que 6. Eles compartilham a iniciativa junto a você, tendo apenas 1 ação para realizar algum movimento que não seja deslocamento. O Carniçal pode aplicar a condição <i>'Sangramento'</i> caso o alvo não passe em um teste de <b>Constituição</b> [20] a cada ataque bem sucedido e o Devorador pode aplicar a condição <i>'Necrosando'</i> caso o alvo não passe em um teste de <b>Constituição</b> [20] a cada ataque bem sucedido. Ambos causam metade de dano físico e a outra metade de dano necrótico. Se sua sanidade acabar enquanto esses monstros estiverem ativados, você perderá o controle deles e os mesmos irão se tornar independentes. Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada 2 rodadas.",
+      "evolucoes": [
+        {"nome": "Esqueletos flamejantes", "tag": ["B"]},
+        {"nome": "Campeão macabro", "tag": ["D"]}        
+      ]
+    },
+    {
+      "id": "v-akram-inv-6",
+      "nome": "Campeão macabro",
+      "tag": ["D"],
+      "vale": "Akram",
+      "estilo": "Invocação",
+      "descricao": "Um símbolo de invocação Akram surge por trás de você, invocando um único <b><i>Cavaleiro Negro</b></i>, um monstro despertado que obedecerá você ou algum outro ser que tenha <b>Caos</b> base maior que 12. Ele tem a iniciativa própria, porém é sempre o primeiro ou o último, tendo as ações convencionais de monstro ordenadas por você. Quando se invoca esse monstro, todos no raio de <b>[Nível•Caos]</b> metros dele ficarão na condição <i>'Apavorado'</i>. Consome 2 de sanidade a cada 3 rodadas. Se sua sanidade acabar enquanto esse monstro estiver ativado, você perderá o controle dele e o mesmo irá se tornar independente. Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada 3 rodadas.",
+      "evolucoes": [
+        {"nome": "Esqueletos flamejantes", "tag": ["B"]},
+        {"nome": "Carniceiros", "tag": ["T"]}        
+      ]
+    },
+    {
+      "id": "v-akram-ref-1",
+      "nome": "Enrijecer",
+      "tag": ["B"],
+      "vale": "Akram",
+      "estilo": "Reforço",
+      "descricao": "O seu corpo ou o corpo de um alvo que possa tocar, se enrijece, ganhando resistência a danos físicos. Reduz o dano físico total em <b>[Nível+Caos]</b> pontos. Não consegue usar outras Artes enquanto está enrijecido. Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada rodada.",
+      "evolucoes": [
+        {"nome": "Escamas ardentes", "tag": ["T"]},
+        {"nome": "Imperador", "tag": ["D"]}        
+      ]
+    },
+    {
+      "id": "v-akram-ref-2",
+      "nome": "Escamas ardentes",
+      "tag": ["T"],
+      "vale": "Akram",
+      "estilo": "Reforço",
+      "descricao": "O seu corpo ou o corpo de um alvo que possa ver começa a sair fumaça e em instantes escamas feitas de brasas são desenvolvidas. Reduz o dano físico total em <b>[Nível•2+Caos•2]</b> pontos. Danos flamejantes tem seus danos reduzidos pela metade. Se um alvo lhe atacar desarmado ou você atacar desarmado, cause <b>[Nível+Caos]</b> de dano flamejante. Não consegue usar outras Artes enquanto está focado nas escamas. Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada 2 rodadas.",
+      "evolucoes": [
+        {"nome": "Enrijecer", "tag": ["B"]},
+        {"nome": "Imperador", "tag": ["D"]}        
+      ]
+    },
+    {
+      "id": "v-akram-ref-3",
+      "nome": "Imperador",
+      "tag": ["D"],
+      "vale": "Akram",
+      "estilo": "Reforço",
+      "descricao": "O seu corpo passa por um processo doloroso, onde sua pele é trocada por escamas negras, adquirindo uma aparência dracônica. Você ganha um par de asas que concede deslocamento aéreo igual ao deslocamento terrestre, além de garras e uma cauda que podem ser usadas para atacar com uma ação extra sem gastar Vontade. Reduz o dano físico total em <b>[Nível•Caos]</b> pontos. Tem imunidade a danos flamejantes, danos congelantes, danos eletrizantes e danos ácidos. Você ganha resistência a todas as condições negativas, exceto <i>'Akrosys'</i>. Todos no raio de <b>[Nível•2+Caos•2]</b> metros de você deverão fazer um teste de <b>Mente</b> [24] para não entrarem Em medo. Permanece ativa se passar num teste de Caos com a mesma D.A de ativação ao final de cada 3 rodadas.",
+      "evolucoes": [
+        {"nome": "Enrijecer", "tag": ["B"]},
+        {"nome": "Escamas ardentes", "tag": ["T"]}        
+      ]
+    },
+    {
+      "id": "v-akram-ref-4",
+      "nome": "Fortificação",
+      "tag": ["B"],
+      "vale": "Akram",
+      "estilo": "Reforço",
+      "descricao": "Um alvo que você tocar, se sentirá mais forte, mais vivo, mais ágil, suas capacidades físicas se fortificam. Pode ser usado em si mesmo. A <b>Violência</b> e <b>Constituição</b> aumentam em <b>[Nível]</b> pontos e sua <b>Mobilidade</b> em <b>[Caos]</b> pontos enquanto a Arte permanecer ativa. Não consegue usar outras Artes enquanto está fortificando. Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada rodada.",
+      "evolucoes": [
+        {"nome": "Instintos bestiais", "tag": ["T"]},
+        {"nome": "Desalmado", "tag": ["D"]}        
+      ]
+    },
+    {
+      "id": "v-akram-ref-5",
+      "nome": "Instintos bestiais",
+      "tag": ["T"],
+      "vale": "Akram",
+      "estilo": "Reforço",
+      "descricao": "Você torna seus glóbulos oculares dourados e sua íris negra, seus instintos se tornam muito mais aguçados. Você recebe 1 reação extra, seu deslocamento e um atributo a escolha é dobrado, além de ganhar visão noturna, audição e olfato são aprimorados enquanto a Arte permanecer ativa. Não consegue usar outras Artes enquanto está focado nos instintos. Permanece ativa se passar num teste de Caos com a mesma D.A de ativação ao final de cada 2 rodadas.",
+      "evolucoes": [
+        {"nome": "Fortificação", "tag": ["B"]},
+        {"nome": "Desalmado", "tag": ["D"]}        
+      ]
+    },
+    {
+      "id": "v-akram-ref-6",
+      "nome": "Desalmado",
+      "tag": ["D"],
+      "vale": "Akram",
+      "estilo": "Reforço",
+      "descricao": "Um silêncio absoluto é aplicado em um raio de <b>[Nível•Caos]</b> metros de você, seus olhos ficam totalmente vermelhos, suas capacidades físicas são elevadas ao seu potencial máximo. A <b>Violência</b>, <b>Constituição</b> e <b>Mobilidade</b> ficam no máximo que elas conseguem, e caso alguma delas já esteja no máximo, dobre o valor. No primeiro turno, o seu dano terá a quantidade de dados aumentada em <b>[Nível]</b>, no segundo turno em <b>[Nível+Caos]</b>, e no terceiro em <b>[Nível•2+Caos•2]</b>, reiniciando o ciclo a cada 3 rodadas. Não consegue usar outras Artes enquanto estiver sob os efeitos da Arte, e para desativar, precisará entrar em Estado de Morte, caso contrário, sua sanidade será consumida em 2 a cada 3 rodadas. Se perder toda sanidade enquanto estiver sob os efeitos da Arte, você arrancará o próprio coração e o comerá.",
+      "evolucoes": [
+        {"nome": "Fortificação", "tag": ["B"]},
+        {"nome": "Instintos bestiais", "tag": ["T"]}        
+      ]
+    },
+    {
+      "id": "v-Akram-ref-7",
+      "nome": "Revitalização",
+      "tag": ["B"],
+      "vale": "Akram",
+      "estilo": "Reforço",
+      "descricao": "Um alvo que conseguir ver, uma marca do vale Akram surge por cima das feridas ou da enfermidade do alvo, podendo escolher entre cicatrizar uma ferida ou neutralizar uma condição que seja: <i>'Envenenamento'</i>, <i>'Pertubado'</i>, <i>'Necrosando'</i>, <i>'Em chamas'</i> e <i>'Congelamento'</i>. Pode ser usado em si mesmo. Não pode permanecer ativa, precisando ser reativa manualmente, consumindo novamente sanidade.",
+      "evolucoes": [
+        {"nome": "Fator de cura", "tag": ["T"]},
+        {"nome": "Sangue dourado", "tag": ["D"]}        
+      ]
+    },
+    {
+      "id": "v-akram-ref-8",
+      "nome": "Fator de cura",
+      "tag": ["T"],
+      "vale": "Akram",
+      "estilo": "Reforço",
+      "descricao": "Seu corpo ganha uma adrenalina surreal, porém sua mente se mantém estável, aumentando sua taxa de regeneração em níveis sobrehumanos, se aplicando apenas em si mesmo. A cada final de rodada regenere sua Vitalidade em <b>[Nível•2+Caos•2]</b>, se estiver no máximo, ganhe uma <u>Sobrevida</u> enquanto a Arte perdurar. Não consegue usar outras Artes enquanto está se regenerando. Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada 2 rodadas.",
+      "evolucoes": [
+        {"nome": "Revitalização", "tag": ["B"]},
+        {"nome": "Sangue dobrado", "tag": ["D"]}        
+      ]
+    },
+    {
+      "id": "v-akram-ref-9",
+      "nome": "Sangue dourado",
+      "tag": ["D"],
+      "vale": "Akram",
+      "estilo": "Reforço",
+      "descricao": "Suas veias e artérias brilham em dourado, seu corpo ganha uma taxa de regeneração em um nível surreal. A cada início e final de rodada regenere sua Vitalidade em <b>[Nível•Caos]</b>, se estiver no máximo ganhe uma <u>Sobrevida</u>. Enquanto a Arte perdurar, sua Vitalidade máxima é dobrada, além disso, alvos que beberem de seu sangue recuperarão Vitalidade e terão todas suas condições negativas curadas. A Arte também permite curar cicatrizes e doenças. Permanece ativa se passar num teste de <b>Caos</b> com a mesma D.A de ativação ao final de cada 3 rodadas.",
+      "evolucoes": [
+        {"nome": "Revitalização", "tag": ["B"]},
+        {"nome": "Fator de cura", "tag": ["T"]}        
+      ]
     }
   ]
 }
