@@ -49,10 +49,24 @@
     color: white;
 }
 
-/* ========================= */
-/* ===== RESPONSIVIDADE ===== */
-/* ========================= */
+/* ===== CABEÇALHO FIXO ===== */
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    transition: box-shadow 0.3s ease, background-color 0.3s ease;
+}
 
+/* Sombra aparece quando o JS aplica .scrolled */
+header.scrolled {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    background-color: rgba(255, 255, 255, 0.95);
+    /* levemente translúcido */
+    backdrop-filter: blur(6px);
+    /* efeito vidro */
+}
+
+/* ===== RESPONSIVIDADE ===== */
 /* GRID GENÉRICO PARA LISTAS DE CARDS */
 .lista-cards {
     display: grid;
@@ -82,7 +96,8 @@
         margin-bottom: 10px;
     }
 
-    #busca, #toggle-mundo {
+    #busca,
+    #toggle-mundo {
         width: 100%;
         margin-bottom: 10px;
     }
@@ -91,7 +106,8 @@
 /* Listas menores (como botões de anomalias) */
 @media (max-width: 576px) {
     .lista-cards {
-        grid-template-columns: 1fr; /* sempre 1 por linha */
+        grid-template-columns: 1fr;
+        /* sempre 1 por linha */
     }
 
     .lista-cards .btn,

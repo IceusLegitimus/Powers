@@ -13,12 +13,14 @@
 
 <body>
   <header class="d-flex justify-content-between align-items-center p-3 bg-dark text-white">
-    <h1 id="titulo-mundo" class="mb-0" style="cursor:pointer;">RPG Vales</h1>
+    <h1 id="titulo-mundo" class="mb-0" style="cursor:pointer;">RPG dos Vales</h1>
     <div class="d-flex align-items-center gap-2">
       <input id="busca" type="text" class="form-control" placeholder="Buscar poder...">
       <button id="toggle-mundo" class="btn btn-outline-light">Trocar Mundo</button>
+      
       <!-- Botão de filtro -->
-      <button class="btn btn-outline-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#filtroMenu" aria-controls="filtroMenu">
+      <button class="btn btn-outline-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#filtroMenu"
+        aria-controls="filtroMenu">
         Filtros
       </button>
     </div>
@@ -29,7 +31,8 @@
   </main>
 
   <!-- Offcanvas lateral -->
-  <div class="offcanvas offcanvas-end bg-dark text-white" tabindex="-1" id="filtroMenu" aria-labelledby="filtroMenuLabel">
+  <div class="offcanvas offcanvas-end bg-dark text-white" tabindex="-1" id="filtroMenu"
+    aria-labelledby="filtroMenuLabel">
     <div class="offcanvas-header">
       <h5 class="offcanvas-title" id="filtroMenuLabel">Filtros</h5>
       <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -51,26 +54,42 @@
 
         <div class="mb-3">
           <label class="form-label">Nível</label><br>
-          <div class="form-check"><input class="form-check-input" type="checkbox" name="nivel" value="Base" id="filtro-base">
-            <label class="form-check-label" for="filtro-base">Base</label></div>
-          <div class="form-check"><input class="form-check-input" type="checkbox" name="nivel" value="Transmutada" id="filtro-trans">
-            <label class="form-check-label" for="filtro-trans">Transmutada</label></div>
-          <div class="form-check"><input class="form-check-input" type="checkbox" name="nivel" value="Despertada" id="filtro-desp">
-            <label class="form-check-label" for="filtro-desp">Despertada</label></div>
+          <div class="form-check"><input class="form-check-input" type="checkbox" name="nivel" value="Base"
+              id="filtro-base">
+            <label class="form-check-label" for="filtro-base">Base</label>
+          </div>
+          <div class="form-check"><input class="form-check-input" type="checkbox" name="nivel" value="Transmutada"
+              id="filtro-trans">
+            <label class="form-check-label" for="filtro-trans">Transmutada</label>
+          </div>
+          <div class="form-check"><input class="form-check-input" type="checkbox" name="nivel" value="Despertada"
+              id="filtro-desp">
+            <label class="form-check-label" for="filtro-desp">Despertada</label>
+          </div>
         </div>
 
         <div class="mb-3">
           <label class="form-label">Estilo</label><br>
-          <div class="form-check"><input class="form-check-input" type="checkbox" name="estilo" value="Armamento" id="filtro-arm">
-            <label class="form-check-label" for="filtro-arm">Armamento</label></div>
-          <div class="form-check"><input class="form-check-input" type="checkbox" name="estilo" value="Decaimento" id="filtro-dec">
-            <label class="form-check-label" for="filtro-dec">Decaimento</label></div>
-          <div class="form-check"><input class="form-check-input" type="checkbox" name="estilo" value="Disparo" id="filtro-dis">
-            <label class="form-check-label" for="filtro-dis">Disparo</label></div>
-          <div class="form-check"><input class="form-check-input" type="checkbox" name="estilo" value="Invocação" id="filtro-inv">
-            <label class="form-check-label" for="filtro-inv">Invocação</label></div>
-          <div class="form-check"><input class="form-check-input" type="checkbox" name="estilo" value="Reforço" id="filtro-ref">
-            <label class="form-check-label" for="filtro-ref">Reforço</label></div>
+          <div class="form-check"><input class="form-check-input" type="checkbox" name="estilo" value="Armamento"
+              id="filtro-arm">
+            <label class="form-check-label" for="filtro-arm">Armamento</label>
+          </div>
+          <div class="form-check"><input class="form-check-input" type="checkbox" name="estilo" value="Decaimento"
+              id="filtro-dec">
+            <label class="form-check-label" for="filtro-dec">Decaimento</label>
+          </div>
+          <div class="form-check"><input class="form-check-input" type="checkbox" name="estilo" value="Disparo"
+              id="filtro-dis">
+            <label class="form-check-label" for="filtro-dis">Disparo</label>
+          </div>
+          <div class="form-check"><input class="form-check-input" type="checkbox" name="estilo" value="Invocação"
+              id="filtro-inv">
+            <label class="form-check-label" for="filtro-inv">Invocação</label>
+          </div>
+          <div class="form-check"><input class="form-check-input" type="checkbox" name="estilo" value="Reforço"
+              id="filtro-ref">
+            <label class="form-check-label" for="filtro-ref">Reforço</label>
+          </div>
         </div>
       </form>
     </div>
@@ -78,6 +97,7 @@
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   <script src="vales.js"></script>
+  <script src="ui.js"></script>
 </body>
 
 </html>

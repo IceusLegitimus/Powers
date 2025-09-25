@@ -49,10 +49,10 @@ function formatarTagsVales(tags) {
     return tags.map(t => {
         let classe = "";
         switch (t) {
-            case "B": classe = "tag-B"; break; 
-            case "T": classe = "tag-T"; break; 
-            case "C": classe = "tag-C"; break; 
-            case "D": classe = "tag-D"; break; 
+            case "B": classe = "tag-B"; break;
+            case "T": classe = "tag-T"; break;
+            case "C": classe = "tag-C"; break;
+            case "D": classe = "tag-D"; break;
             default: classe = "tag-B";
         }
         return `<span class="card-tag ${classe}">${t}</span>`;
@@ -64,8 +64,8 @@ function formatarVale(vale) {
     if (!vale) return "";
     let cor = "bg-secondary";
     switch (vale.toLowerCase()) {
-        case "arakis": cor = "bg-primary"; break; 
-        case "akram": cor = "bg-danger"; break;  
+        case "arakis": cor = "bg-primary"; break;
+        case "akram": cor = "bg-danger"; break;
     }
     return `<span class="badge ${cor} ms-2">${vale}</span>`;
 }
@@ -88,7 +88,7 @@ function renderizarPoderesVales(filtroTexto = "") {
         poderesFiltrados = poderesFiltrados.filter(p => {
             const tagNivel = (p.tag || ["B"])[0]; // pega a primeira tag
             let nivel = "";
-            switch(tagNivel) {
+            switch (tagNivel) {
                 case "B": nivel = "Base"; break;
                 case "T": nivel = "Transmutada"; break;
                 case "D": nivel = "Despertada"; break;
@@ -141,9 +141,9 @@ function mostrarDetalhesVales(poder) {
             <h4 class="mt-4">Evoluções</h4>
             <ul>
                 ${poder.evolucoes.map(e => {
-                    if (typeof e === "string") return `<li>${e}</li>`;
-                    return `<li>${e.nome} ${formatarTagsVales(e.tag)} ${formatarVale(e.vale || "")}</li>`;
-                }).join("")}
+        if (typeof e === "string") return `<li>${e}</li>`;
+        return `<li>${e.nome} ${formatarTagsVales(e.tag)} ${formatarVale(e.vale || "")}</li>`;
+    }).join("")}
             </ul>
             <button class="btn btn-secondary mt-3" id="voltar-lista">Voltar</button>
         </div>
